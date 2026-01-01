@@ -9,7 +9,7 @@
       <li>
         <strong>{{ test.name }}</strong>
         — ₹{{ test.discounted_price ||  test.original_price}}
-        <button (click)="removeTest(test.id)">Remove</button>
+        <button (click)="removeTest(test.id)"> Remove </button>
       </li>
     }
   </ul>
@@ -21,16 +21,8 @@
   </p>
 
   <div class="actions">
-    <a routerLink="/booking/tests">
-      ← Modify Tests
-    </a>
-  
-    <a
-      routerLink="/booking/schedule"
-      [class.disabled]="selectedTests().length === 0"
-    >
-      Proceed to Schedule →
-    </a>
+    <a routerLink="/booking/tests"> Modify Tests </a>  
+    <a routerLink="/booking/schedule" [class.disabled]="selectedTests().length === 0"> Proceed to Schedule </a>
   </div>
   
 }

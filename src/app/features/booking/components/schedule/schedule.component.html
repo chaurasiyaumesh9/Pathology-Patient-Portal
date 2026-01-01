@@ -1,40 +1,34 @@
 <h2>Select Sample Collection Slot</h2>
 
 @if (days$ | async; as days) {
-  <div class="days">
+<div class="days">
     @for (day of days; track day.date) {
-      <div class="day">
+    <div class="day">
         <button (click)="selectDate(day.date)">
-          {{ day.date }}
+            {{ day.date }}
         </button>
 
         @if (selectedDate() === day.date) {
-          <div class="slots">
+        <div class="slots">
             @for (slot of day.slots; track slot) {
-              <button (click)="selectTime(slot)">
+            <button (click)="selectTime(slot)">
                 {{ slot }}
-              </button>
+            </button>
             }
-          </div>
+        </div>
         }
-      </div>
+    </div>
     }
-  </div>
+</div>
 
-  <div class="actions">
-    <a routerLink="/booking/cart">
-      ← Back to Cart
-    </a>
-  
-    <button
-      [disabled]="!selectedDate() || !selectedTime()"
-      (click)="confirmAppointment()"
-      routerLink="/booking/payment"
-    >
-      Proceed to Payment →
+<div class="actions">
+    <a routerLink="/booking/cart"> ← Back to Cart </a>
+
+    <button [disabled]="!selectedDate() || !selectedTime()" (click)="confirmAppointment()" routerLink="/booking/payment">
+        Proceed to Payment →
     </button>
-  </div>
-  
+</div>
+
 } @else {
-  <p>Loading available slots...</p>
+<p>Loading available slots...</p>
 }

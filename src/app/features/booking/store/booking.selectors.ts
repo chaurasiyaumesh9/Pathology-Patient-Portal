@@ -3,24 +3,24 @@ import { BookingState } from './booking.state';
 import { bookingFeatureKey } from './booking.reducer';
 
 export const selectBookingState =
-  createFeatureSelector<BookingState>(bookingFeatureKey);
+    createFeatureSelector<BookingState>(bookingFeatureKey);
 
 export const selectSelectedTests = createSelector(
-  selectBookingState,
-  state => state.selectedTests
+    selectBookingState,
+    state => state.selectedTests
 );
 
 export const selectAppointment = createSelector(
-  selectBookingState,
-  state => state.appointment
+    selectBookingState,
+    state => state.appointment
 );
 
 export const selectPaymentStatus = createSelector(
-  selectBookingState,
-  state => state.paymentStatus
+    selectBookingState,
+    state => state.paymentStatus
 );
 
 export const selectTotalAmount = createSelector(
-  selectSelectedTests,
-  tests => tests.reduce((sum, t) => sum + t.discounted_price || t.original_price, 0)
+    selectSelectedTests,
+    tests => tests.reduce((sum, t) => sum + t.discounted_price || t.original_price, 0)
 );

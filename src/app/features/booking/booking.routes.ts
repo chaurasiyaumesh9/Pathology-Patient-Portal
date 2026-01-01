@@ -9,21 +9,21 @@ import { CartComponent } from './components/cart/cart.component';
 import { PaymentComponent } from './components/payment/payment.component';
 
 export const BOOKING_ROUTES: Routes = [
-  {
-    path: '',
-    providers: [
-      provideState(bookingFeatureKey, bookingReducer)
-    ],
-    children: [
-      { path: '', component: BookingHomeComponent },
-      { path: 'tests', component: TestsComponent },
-      {
-        path: 'schedule',
-        component: ScheduleComponent,
-        canActivate: [cartNotEmptyGuard]
-      },
-      { path: 'cart', component: CartComponent },
-      { path: 'payment', component: PaymentComponent }
-    ]
-  }
+    {
+        path: '',
+        providers: [
+            provideState(bookingFeatureKey, bookingReducer)
+        ],
+        children: [
+            { path: '', component: BookingHomeComponent },
+            { path: 'tests', component: TestsComponent },
+            {
+                path: 'schedule',
+                component: ScheduleComponent,
+                canActivate: [cartNotEmptyGuard]
+            },
+            { path: 'cart', component: CartComponent },
+            { path: 'payment', component: PaymentComponent }
+        ]
+    }
 ];

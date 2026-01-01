@@ -2,18 +2,18 @@ import { createAction, props } from '@ngrx/store';
 import { AppointmentSlot, Test } from '../models/test.model';
 
 export const addTest = createAction(
-  '[Booking] Add Test',
-  props<{ test: Test }>()
+    '[Booking] Add Test',
+    props<{ test: Test }>()
 );
 
 export const removeTest = createAction(
-  '[Booking] Remove Test',
-  props<{ testId: number }>()
+    '[Booking] Remove Test',
+    props<{ testId: number }>()
 );
 
 export const setAppointment = createAction(
-  '[Booking] Set Appointment',
-  props<{ appointment: AppointmentSlot }>()
+    '[Booking] Set Appointment',
+    props<{ appointment: AppointmentSlot }>()
 );
 
 export const startPayment = createAction('[Booking] Start Payment');

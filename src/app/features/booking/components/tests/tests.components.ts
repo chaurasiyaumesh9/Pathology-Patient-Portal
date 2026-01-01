@@ -9,30 +9,30 @@ import { TestsService } from '../../services/tests.service';
 import { Test } from '../../models/test.model';
 
 @Component({
-  selector: 'app-tests',
-  imports: [CommonModule, RouterLink],
-  templateUrl: './tests.components.html',
-  styleUrls: ['./tests.components.scss']
+    selector: 'app-tests',
+    imports: [CommonModule, RouterLink],
+    templateUrl: './tests.components.html',
+    styleUrls: ['./tests.components.scss']
 })
 export class TestsComponent {
-  private store = inject(Store);
-  private testsService = inject(TestsService);
+    private store = inject(Store);
+    private testsService = inject(TestsService);
 
-  tests$ = this.testsService.getTests();
-  selectedTests = this.store.selectSignal(selectSelectedTests);
-  selectedTestsCount = this.store.selectSignal(
-    BookingSelectors.selectSelectedTests
-  );
+    tests$ = this.testsService.getTests();
+    selectedTests = this.store.selectSignal(selectSelectedTests);
+    selectedTestsCount = this.store.selectSignal(
+        BookingSelectors.selectSelectedTests
+    );
 
-  addTest(test: Test ) {
-    this.store.dispatch(BookingActions.addTest({ test }));
-  }
+    addTest(test: Test) {
+        this.store.dispatch(BookingActions.addTest({ test }));
+    }
 
-  removeTest(testId: number) {
-    this.store.dispatch(BookingActions.removeTest({ testId }));
-  }
+    removeTest(testId: number) {
+        this.store.dispatch(BookingActions.removeTest({ testId }));
+    }
 
-  isSelected(testId: number): boolean {
-    return this.selectedTests().some(t => t.id === testId);
-  }
+    isSelected(testId: number): boolean {
+        return this.selectedTests().some(t => t.id === testId);
+    }
 }
