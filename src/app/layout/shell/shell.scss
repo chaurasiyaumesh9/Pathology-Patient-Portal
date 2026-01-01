@@ -1,0 +1,10 @@
+.app-header,
+.app-footer {
+  padding: 1rem;
+  background-color: #f8fafc;
+}
+
+.app-content {
+  min-height: calc(100vh - 120px);
+  padding: 1rem;
+}

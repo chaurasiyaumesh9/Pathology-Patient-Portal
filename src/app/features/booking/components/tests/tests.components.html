@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="test-slugs">
+      We offer a wide range of 6000+ clinical laboratory tests and profiles, which are used to provide quality diagnostic services at affordable rates for prediction, early detection, diagnostic screening, confirmation and/or monitoring of the disease using our technological advanced machines. Our tests area cover different age groups from offerings for prenatal screening, to screening for hormonal imbalance, nutritional deficiencies and tracking lifestyle disorders. Listed below are the various test and parameters under different categories.
+    </div>
+    <div class="test-container">
+      @if (tests$ | async; as tests) {
+        <ul>
+          @for (test of tests; track test.id) {
+            <li>
+              <strong>{{ test.name }}</strong>
+              — ₹{{ test.discounted_price ||  test.original_price }}
+      
+              @if (!isSelected(test.id)) {
+                <button (click)="addTest(test)">Add</button>
+              } @else {
+                <button (click)="removeTest(test.id)">Remove</button>
+              }
+            </li>
+          }
+        </ul>
+        @if (selectedTestsCount().length > 0) {
+          <div class="booking-cta">
+            <span>
+              {{ selectedTestsCount().length }} test(s) selected
+            </span>
+        
+            <a routerLink="/booking/cart">
+              View Cart →
+            </a>
+          </div>
+        }
+      } @else {
+        <p>Loading tests...</p>
+      }    
+    </div>
+  </div>
+  
+  

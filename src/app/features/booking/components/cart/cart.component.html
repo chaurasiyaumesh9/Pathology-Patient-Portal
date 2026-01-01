@@ -1,0 +1,36 @@
+<h2>Review Your Tests Selection</h2>
+
+@if (selectedTests().length === 0) {
+  <p>No tests selected yet.</p>
+  <a routerLink="/booking/tests">Go back to test selection</a>
+} @else {
+  <ul>
+    @for (test of selectedTests(); track test.id) {
+      <li>
+        <strong>{{ test.name }}</strong>
+        — ₹{{ test.discounted_price ||  test.original_price}}
+        <button (click)="removeTest(test.id)">Remove</button>
+      </li>
+    }
+  </ul>
+
+  <hr />
+
+  <p>
+    <strong>Total:</strong> ₹{{ totalAmount() }}
+  </p>
+
+  <div class="actions">
+    <a routerLink="/booking/tests">
+      ← Modify Tests
+    </a>
+  
+    <a
+      routerLink="/booking/schedule"
+      [class.disabled]="selectedTests().length === 0"
+    >
+      Proceed to Schedule →
+    </a>
+  </div>
+  
+}

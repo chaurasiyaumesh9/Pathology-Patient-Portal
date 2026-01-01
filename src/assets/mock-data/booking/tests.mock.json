@@ -1,0 +1,1439 @@
+[
+    {
+        "id": 28176,
+        "name": "CT CHEST  UPPER  ABDOMEN WITH CONTRAST",
+        "code": "CT0025",
+        "category": 1,
+        "description": "Keep reading to learn why your doctor may order an abdominal CT scan how to prepare for your procedure and any possible risks and complications.",
+        "instructions": [
+            "2 To 3 Hrs Fasting",
+            "Require Creatinine Report"
+        ],
+        "original_price": "12000",
+        "discounted_price": "7800",
+        "keywords": "CT CHEST  UPPER  ABDOMEN WITH CONTRAST CT SCAN UPPER ABDOMEN COMPUTED TOMOGRAPHY CT0025"
+    },
+    {
+        "id": 28177,
+        "name": "CT CHEST ONLY  CONTRAST",
+        "code": "CT0028",
+        "category": 1,
+        "description": " A CT or CAT scan is a shortened name for computerized tomography. A CT scan takes pictures of the inside of the body. The pictures are more detailed than a typical xray. During a CT scan of the chest pictures are taken of cross sections or slices of the thoracic structures in your body. The thoracic structures include your lungs heart and the bones around these areas. When contrast is used during a CT scan of the chest thoracic structures are highlighted even more.",
+        "instructions": [
+            "2 To 3 Hrs Fasting",
+            "Require Creatinine Report"
+        ],
+        "original_price": "2630",
+        "discounted_price": "1500",
+        "keywords": "CT CHEST ONLY  CONTRAST CT SCAN HRCT CONTRAST COMPUTED TOMOGRAPHY CT0028"
+    },
+    {
+        "id": 28178,
+        "name": "CT CHEST CONTRAST CHILD",
+        "code": "CT0058",
+        "category": 1,
+        "description": "Pediatric computed tomography (CT) is a fast painless exam that uses special xray equipment to create detailed images of your child's internal organs bones soft tissues and blood vessels.",
+        "instructions": [
+            "2 To 3 Hrs Fasting",
+            "Require Creatinine Report"
+        ],
+        "original_price": "6000",
+        "discounted_price": "3900",
+        "keywords": "CT CHEST CONTRAST CHILD CT SCAN HRCT COMPUTED TOMOGRAPHY CONTRAST CHILD CT0058"
+    },
+    {
+        "id": 28179,
+        "name": "CT CHEST",
+        "code": "CT0068",
+        "category": 1,
+        "description": "A chest CT scan is a more detailed type of chest x ray that takes many detailed pictures of your lungs and the inside of your chest. Overview. A chest CT scan is a more detailed type of chest x ray. This painless imaging test takes many detailed pictures called slices of your lungs and the inside of your chest.",
+        "instructions": [],
+        "original_price": "5000",
+        "discounted_price": "3740",
+        "keywords": "CT CHEST CT SCAN HRCT COMPUTED TOMOGRAPHY CT0068"
+    },
+    {
+        "id": 28180,
+        "name": "CT HRCT CHEST",
+        "code": "CT0070",
+        "category": 1,
+        "description": "Highresolution CT (HRCT) of the chest also referred to as HRCT chest or HRCT of the lungs refers to a CT technique in which thinslice chest images are obtained and postprocessed in a highspatialfrequency reconstruction algorithm. ... A full HRCT protocol usually includes additional acquisitions  expiratory images.",
+        "instructions": [],
+        "original_price": "5000",
+        "discounted_price": "3740",
+        "keywords": "CT HRCT CHEST CT SCAN HRCT  COMPUTED TOMOGRAPHY CT0070"
+    },
+    {
+        "id": 28191,
+        "name": "CT HRCT TEMPORAL BONE",
+        "code": "CT0055",
+        "category": 1,
+        "description": "High Resolution Computed Tomography (HRCT) can demonstrate the detailed anatomy and pathology of the temporal bone and is fast becoming an important imaging modality in the diagnosis and preoperative management of our local patients with temporal bone diseases.",
+        "instructions": [],
+        "original_price": "5000",
+        "discounted_price": "3740",
+        "keywords": "CT HRCT TEMPORAL BONE  CT SCAN  COMPUTED TOMOGRAPHY TEMPORAL BONE HRCT CT0055"
+    },
+    {
+        "id": 28285,
+        "name": "CT ABDOMEN & PELVIS WITH 3D RECONSTRUCTION",
+        "code": "CT0016",
+        "category": 1,
+        "description": "The Pelvic Computed Tomography Scan test is an imaging procedure where rotating beams of Xrays are used to create thin sliced images of the abdomen and pelvic region which are then reconstructed to create a detailed three dimensional anatomical model of the pelvis and abdominal region. The 3D reconstructed pelvic CT scan is used to directly and visually identify disorders in the bones as well as soft tissues and help diagnose medical conditions or plan treatment procedures.",
+        "instructions": [
+            "According to doctor's consultation",
+            "Require Creatinine Report"
+        ],
+        "original_price": "6000",
+        "discounted_price": "5400",
+        "keywords": "CT ABDOMEN & PELVIS WITH 3D RECONSTRUCTION CT SCAN  COMPUTED TOMOGRAPHY ABDOMEN PELVIS RECONSTRUCTION 3D CT0016"
+    },
+    {
+        "id": 28286,
+        "name": "CT ABDOMEN AND PELVIS PLAIN",
+        "code": "CT0020",
+        "category": 1,
+        "description": "Computed tomography (CT) of the abdomen and pelvis is a diagnostic imaging test used to help detect diseases of the small bowel colon and other internal organs and is often used to determine the cause of unexplained pain. CT scanning is fast painless noninvasive and accurate. In emergency cases it can reveal internal injuries and bleeding quickly enough to help save lives.",
+        "instructions": [
+            "24 hours"
+        ],
+        "original_price": "6000",
+        "discounted_price": "5400",
+        "keywords": "CT ABDOMEN AND PELVIS PLAIN CT SCAN  COMPUTED TOMOGRAPHY ABDOMEN PELVIS PLAIN CT0020"
+    },
+    {
+        "id": 28287,
+        "name": "CT ABDOMEN AND PELIVIS WITH CONTRAST ",
+        "code": "CT0021",
+        "category": 1,
+        "description": "Computed tomography (CT) of the abdomen and pelvis is a diagnostic imaging test used to help detect diseases of the small bowel colon and other internal organs and is often used to determine the cause of unexplained pain. CT scanning is fast painless noninvasive and accurate. In emergency cases it can reveal internal injuries and bleeding quickly enough to help save lives.",
+        "instructions": [
+            "2 To 3 Hrs Fasting",
+            "Require Creatinine Report"
+        ],
+        "original_price": "8000",
+        "discounted_price": "5400",
+        "keywords": "CT ABDOMEN AND PELIVIS WITH CONTRAST  CT SCAN  COMPUTED TOMOGRAPHY ABDOMEN PELVIS CONTRAST CT0021"
+    },
+    {
+        "id": 28288,
+        "name": "CT ABDOMEN & PELVIS TRIPHASIC ",
+        "code": "CT0022",
+        "category": 1,
+        "description": "Triphasic CT scan is a good noninvasive tool and can be used as first line imaging modality for differentiating benign and ma lignant focal liver lesions to avoid unnecessary biopsies of be nign lesions e.g. haemangioma.",
+        "instructions": [
+            "According to doctor's consultation"
+        ],
+        "original_price": "15000",
+        "discounted_price": "12000",
+        "keywords": "CT ABDOMEN & PELVIS TRIPHASIC  CT SCAN  COMPUTED TOMOGRAPHY ABDOMEN PELVIS TRIPHASIC CT0022"
+    },
+    {
+        "id": 28289,
+        "name": "CT UPPER  ABDOMEN WITH CONTRAST",
+        "code": "CT0023",
+        "category": 1,
+        "description": "The abdominal structures include your liver kidneys pancreas spleen GI tract and the area around these organs. When contrast is used during a CT scan of the abdomen these structures are highlighted even more. CT scans can help determine a diagnosis early.",
+        "instructions": [
+            "6 hours",
+            "Require Creatinine Report",
+            "you'll ask to drink more than sufficient amount of water 90 mins before appointment"
+        ],
+        "original_price": "8000",
+        "discounted_price": "7499",
+        "keywords": "CT UPPER  ABDOMEN WITH CONTRAST CT SCAN COMPUTED TOMOGRAPHY UPPER ABDOMEN CONTRAST CT0023"
+    },
+    {
+        "id": 28290,
+        "name": "CT ABDOMEN PLAIN AND CONTRAST CHILD",
+        "code": "CT0038",
+        "category": 1,
+        "description": "The abdominal structures include your liver kidneys pancreas spleen GI tract and the area around these organs. When contrast is used during a CT scan of the abdomen these structures are highlighted even more. CT scans can help determine a diagnosis early.",
+        "instructions": [
+            "According to doctor's consultation",
+            "Require Creatinine Report"
+        ],
+        "original_price": "7000",
+        "discounted_price": "4550",
+        "keywords": "CT ABDOMEN PLAIN AND CONTRAST CHILD CT SCAN COMPUTED TOMOGRAPHY ABDOMEN PLAIN CONTRAST CHILD CT0038"
+    },
+    {
+        "id": 28291,
+        "name": "CT ABDOMEN AND PELIVIS WITH CONTRAST ",
+        "code": "CT0021",
+        "category": 1,
+        "description": "Computed tomography (CT) of the abdomen and pelvis is a diagnostic imaging test used to help detect diseases of the small bowel colon and other internal organs and is often used to determine the cause of unexplained pain. CT scanning is fast painless noninvasive and accurate. In emergency cases it can reveal internal injuries and bleeding quickly enough to help save lives.",
+        "instructions": [
+            "2 To 3 Hrs Fasting",
+            "Require Creatinine Report"
+        ],
+        "original_price": "8000",
+        "discounted_price": "5200",
+        "keywords": "CT ABDOMEN AND PELIVIS WITH CONTRAST  CT SCAN  COMPUTED TOMOGRAPHY ABDOMEN PELVIS CONTRAST CT0021"
+    },
+    {
+        "id": 28292,
+        "name": "CT ABDOMEN & PELVIS TRIPHASIC MALE",
+        "code": "CT0062",
+        "category": 1,
+        "description": "",
+        "instructions": [],
+        "original_price": "10500",
+        "discounted_price": "9000",
+        "keywords": "CT ABDOMEN & PELVIS TRIPHASIC MALE CT SCAN  COMPUTED TOMOGRAPHY ABDOMEN PELVIS TRIPHASIC MALE CT0062"
+    },
+    {
+        "id": 28293,
+        "name": "CT PELVIS",
+        "code": "CT0067",
+        "category": 1,
+        "description": "A computed tomography (CT) scan of the pelvis is an imaging method that uses xrays to create crosssectional pictures of the area between the hip bones. This part of the body is called the pelvic area.",
+        "instructions": [],
+        "original_price": "4200",
+        "discounted_price": "3650",
+        "keywords": "CT PELVIS CT SCAN COMPUTED TOMOGRAPHY PELVIS CT0067"
+    },
+    {
+        "id": 28294,
+        "name": "CT PITUITARY CUT ",
+        "code": "CT0006",
+        "category": 1,
+        "description": "Pituitary lesions albeit relatively infrequent can significantly alter the quality of life. This article highlights the role of advanced imaging modalities in evaluating pituitaryhypothalamic axis lesions. Magnetic resonance imaging (MRI) is the examination of choice for evaluating hypothalamicpituitaryrelated endocrine diseases. Advanced MR techniques discussed in this article include dynamic contrastenhanced MRI 3T MRI magnetization transfer (MT) imaging diffusionweighted imaging (DWI) proton MR spectroscopy fluorine18 fluorodeoxyglucosepositron emission tomography singlephoton emission computed tomography intraoperative MRI and intraoperative realtime ultrasonography.",
+        "instructions": [],
+        "original_price": "1500",
+        "discounted_price": "1000",
+        "keywords": "CT PITUITARY CUT  CT SCAN COMPUTED TOMOGRAPHY PITUITARY CUT CT0006"
+    },
+    {
+        "id": 28295,
+        "name": "CT BRAIN PLAIN",
+        "code": "CT0008",
+        "category": 1,
+        "description": "A CAT scan of the head (also called a head CT) is a painless test that uses a special Xray machine to take pictures of a patient's brain skull and sinuses as well as blood vessels in the head. The doughnutshaped machine circles the head taking pictures to provide crosssections of the brain from various angles.",
+        "instructions": [],
+        "original_price": "3500",
+        "discounted_price": "2790",
+        "keywords": "CT BRAIN PLAIN CT SCAN COMPUTED TOMOGRAPHY BRAIN PLAIN CT0008"
+    },
+    {
+        "id": 28296,
+        "name": "CT BRAIN WITH C.S.SPINE NECK",
+        "code": "CT0015",
+        "category": 1,
+        "description": "A neck CAT scan can detect signs of disease in the throat and surrounding areas. Doctors may order a neck CAT scan to look for signs of an infection (such as an abscess) a birth defect cysts or tumors.",
+        "instructions": [],
+        "original_price": "7670",
+        "discounted_price": "5000",
+        "keywords": "CT BRAIN WITH C.S.SPINE NECK CT SCAN COMPUTED TOMOGRAPHY BRAIN CS SPINE NECK CT0015"
+    },
+    {
+        "id": 28297,
+        "name": "CT BRAIN WITH CONTRAST CHILD",
+        "code": "CT0044",
+        "category": 1,
+        "description": "Brain CT scans can provide more detailed information about brain tissue and brain structures than standard Xrays of the head thus providing more data related to injuries and/or diseases of the brain. During a brain CT the Xray beam moves in a circle around the body allowing many different views of the brain.",
+        "instructions": [
+            "2 To 3 Hrs Fasting",
+            "Require Creatinine Report"
+        ],
+        "original_price": "3000",
+        "discounted_price": "2790",
+        "keywords": "CT BRAIN WITH CONTRAST CHILD CT SCAN COMPUTED TOMOGRAPHY BRAIN CONTRAST CHILD CT0044"
+    },
+    {
+        "id": 28298,
+        "name": "CT BRAIN CONTRAST",
+        "code": "CT0059",
+        "category": 1,
+        "description": "Brain Contrast refers to a substance taken by mouth or injected into an intravenous (IV) line that causes the particular organ or tissue under study to be seen more clearly.",
+        "instructions": [
+            "2 To 3 Hrs Fasting",
+            "Require Creatinine Report"
+        ],
+        "original_price": "4250",
+        "discounted_price": "3500",
+        "keywords": "CT BRAIN CONTRAST CT SCAN COMPUTED TOMOGRAPHY BRAIN CONTRAST CT0059"
+    },
+    {
+        "id": 28182,
+        "name": "XRAY CHEST RIGHT OBLIQUE",
+        "code": "X-Ray0130",
+        "category": 3,
+        "description": "Oblique  Projection taken with the central ray at an angle to any of the body planes. Described by the angle of obliquity and the portion of the body the Xray beam exits  right or left and posterior or anterior. For example a 45 degree Right Anterior Oblique of the Cervical Spine.",
+        "instructions": [],
+        "original_price": "500",
+        "discounted_price": "320",
+        "keywords": "XRAY CHEST RIGHT OBLIQUE XRAY X RAY X RAY X-RAY RADIOGRAPH CHEST RIGHT SIDE OBLIQUE OBQ X-Ray0130"
+    },
+    {
+        "id": 28183,
+        "name": "XRAY CHEST RIGHT LATERAL",
+        "code": "X-Ray0131",
+        "category": 3,
+        "description": "contains much information on the thoracic cage pleura lungs pericardium heart mediastinum and upper abdomen. ... Many junior doctors at ease with the frontal CXR seem intimidated by the lateral film.",
+        "instructions": [],
+        "original_price": "500",
+        "discounted_price": "320",
+        "keywords": "XRAY CHEST RIGHT LATERAL XRAY X RAY X RAY X-RAY RADIOGRAPH CHEST RIGHT SIDE LATERAL X-Ray0131"
+    },
+    {
+        "id": 28184,
+        "name": "XRAY CHEST PA",
+        "code": "X-Ray0132",
+        "category": 3,
+        "description": "The standard chest radiograph is acquired with the patient standing up and with the Xray beam passing through the patient from Posterior to Anterior (PA). The chest Xray image produced is viewed as if looking at the patient from the front facetoface.",
+        "instructions": [],
+        "original_price": "500",
+        "discounted_price": "320",
+        "keywords": "XRAY CHEST PA XRAY X RAY X RAY X-RAY RADIOGRAPH CHEST POSTEROANTERIOR PA SIDE X-Ray0132"
+    },
+    {
+        "id": 28185,
+        "name": "XRAY CHEST LEFT OBLIQUE",
+        "code": "X-Ray0133",
+        "category": 3,
+        "description": "The AP oblique rib projection is performed to best demonstrate the axillary ribs. Oblique ribs may be conducted either as an anterior oblique or posterior oblique view.The rib series is often noted as an unnecessary projection in many radiology departments. However if the projection will change the management of the patient it should still be considered pertinent. ",
+        "instructions": [],
+        "original_price": "500",
+        "discounted_price": "320",
+        "keywords": "XRAY CHEST LEFT OBLIQUE XRAY X RAY X RAY X-RAY RADIOGRAPH CHEST LEFT SIDE OBLIQUE X-Ray0133"
+    },
+    {
+        "id": 28186,
+        "name": "XRAY CHEST LEFT LATERAL",
+        "code": "X-Ray0134",
+        "category": 3,
+        "description": "The lateral chest view examines the lungs bony thoracic cavity mediastinum and great vessels. ...",
+        "instructions": [],
+        "original_price": "500",
+        "discounted_price": "320",
+        "keywords": "XRAY CHEST LEFT LATERAL XRAY X RAY X RAY X-RAY RADIOGRAPH CHEST LEFT SIDE LATERAL X-Ray0134"
+    },
+    {
+        "id": 28187,
+        "name": "XRAY CHEST APICAL",
+        "code": "X-Ray0135",
+        "category": 3,
+        "description": "The AP lordotic chest radiograph (or AP axial chest radiograph) demonstrates areas of the lung apices that appear obscured on the PA/AP chest radiographic views.",
+        "instructions": [],
+        "original_price": "500",
+        "discounted_price": "320",
+        "keywords": "XRAY CHEST APICAL XRAY X RAY X RAY X-RAY RADIOGRAPH CHEST APICAL ZONE X-Ray0135"
+    },
+    {
+        "id": 28188,
+        "name": "XRAY CHEST AP  OR OBQ",
+        "code": "X-Ray0136",
+        "category": 3,
+        "description": "The erect anteroposterior chest view is performed with the xray tube anteriorly firing photons through the patient to form the image on a detector positioned behind the patient. ... A detector can be positioned behind a relatively immobile patient.",
+        "instructions": [],
+        "original_price": "500",
+        "discounted_price": "320",
+        "keywords": "XRAY CHEST AP  OR OBQ XRAY X RAY X RAY X-RAY RADIOGRAPH CHEST ANTERIOR POSTERIOR AP OBLIQUE OB  X-Ray0136"
+    },
+    {
+        "id": 28189,
+        "name": "XRAY CHEST AP",
+        "code": "X-Ray0137",
+        "category": 3,
+        "description": "The erect anteroposterior chest view is performed with the xray tube anteriorly firing photons through the patient to form the image on a detector positioned behind the patient. ... A detector can be positioned behind a relatively immobile patient.",
+        "instructions": [],
+        "original_price": "500",
+        "discounted_price": "320",
+        "keywords": "XRAY CHEST AP XRAY X RAY X RAY X-RAY RADIOGRAPH CHEST ANTERIOR POSTERIOR AP X-Ray0137"
+    },
+    {
+        "id": 28190,
+        "name": "XRAY CHEST",
+        "code": "X-Ray0138",
+        "category": 3,
+        "description": "Chest Xrays produce images of your heart lungs blood vessels airways and the bones of your chest and spine. Chest Xrays can also reveal fluid in or around your lungs or air surrounding a lung.",
+        "instructions": [],
+        "original_price": "500",
+        "discounted_price": "320",
+        "keywords": "XRAY CHEST XRAY X RAY X RAY X-RAY RADIOGRAPH CHEST X-Ray0138"
+    },
+    {
+        "id": 28192,
+        "name": "XRAY NASAL BONE AXIL  OR  LATERAL",
+        "code": "X-Ray002",
+        "category": 3,
+        "description": "This view is often primarily used in assessing various nasal bone fractures in the trauma setting. Depending on the department, this view may be done bilaterally (for comparison of affected versus unaffected side) or unilaterally (only affected side).",
+        "instructions": [],
+        "original_price": "550",
+        "discounted_price": "350",
+        "keywords": "XRAY NASAL BONE AXIL  OR  LATERAL XRAY X RAY X RAY X-RAY RADIOGRAPH NASAL BONE AXIL AXIAL LATERAL VIEW FRACTURE X-Ray002"
+    },
+    {
+        "id": 28193,
+        "name": "XRAY NASAL BONEAP",
+        "code": "X-Ray074",
+        "category": 3,
+        "description": "An X-ray of the nasal bone (AP view) is often carried out to determine if the nasal bone is intact or\r\nfractured; additionally, it is also used to determine if the sinuses are clear or infected. It should be\r\npointed out that this procedure is often carried out for all procedures involving the nasal area.",
+        "instructions": [],
+        "original_price": "500",
+        "discounted_price": "320",
+        "keywords": "XRAY NASAL BONEAP XRAY X RAY X RAY X-RAY RADIOGRAPH NASAL BONE ANTERIOR POSTERIOR AP VIEW FRACTURE X-Ray074"
+    },
+    {
+        "id": 28194,
+        "name": "XRAY NASAL BONE LATERAL",
+        "code": "X-Ray075",
+        "category": 3,
+        "description": "The lateral nasal bones view is a nonangled lateral radiograph showcasing two small oblong bones situated side by side, together forming the nasal ridge",
+        "instructions": [],
+        "original_price": "500",
+        "discounted_price": "320",
+        "keywords": "XRAY NASAL BONE LATERAL XRAY X RAY X RAY X-RAY RADIOGRAPH NASAL BONE LATERAL VIEW FRACTURE X-Ray075"
+    },
+    {
+        "id": 28443,
+        "name": "XRAY BARIUM SWALLO & MEAL",
+        "code": "X-Ray015",
+        "category": 3,
+        "description": "A barium swallow and meal is a type of Xray test. It allows your doctor to examine your throat oesophagus stomach and the first part of your bowel. The procedure involves drinking white liquid called barium and then having Xray pictures taken.",
+        "instructions": [
+            "6 hours"
+        ],
+        "original_price": "3300",
+        "discounted_price": "2800",
+        "keywords": "XRAY BARIUM SWALLO & MEAL XRAY X RAY X RAY X-RAY RADIOGRAPH BARIUM LIQUID SWALLOW SWALLO MEAL THROAT OESOPHAGUS STOMACH BOWEL X-Ray015"
+    },
+    {
+        "id": 28444,
+        "name": "XRAY BOTH CALCANEUM AXIAL",
+        "code": "X-Ray0163",
+        "category": 3,
+        "description": "Entire calcaneus should be visualised from the tuberosity posteriorly to the talocalcaneal joint anteriorly",
+        "instructions": [
+            "8 hours"
+        ],
+        "original_price": "550",
+        "discounted_price": "350",
+        "keywords": "XRAY BOTH CALCANEUM AXIAL XRAY X RAY X RAY X-RAY RADIOGRAPH CALCANEUM CALCANEUS AXIAL VIEW TALOCALCANEAL JOINT X-Ray0163"
+    },
+    {
+        "id": 28445,
+        "name": "XRAY ABDOMEN AND PELVIS STANDING",
+        "code": "X-Ray0164",
+        "category": 3,
+        "description": "Abdominal xray uses a very small dose of ionizing radiation to produce pictures of the inside of the abdominal cavity. It is used to evaluate the stomach liver intestines and spleen and may be used to help diagnose unexplained pain nausea or vomiting. ",
+        "instructions": [
+            "An abdominal xray requires no special preparation. You will be asked to remove some of your clothes and to wear a gown during the exam."
+        ],
+        "original_price": "550",
+        "discounted_price": "350",
+        "keywords": "XRAY ABDOMEN AND PELVIS STANDING XRAY X RAY X RAY X-RAY RADIOGRAPH ABDOMEN PELVIS STANDING STAND X-Ray0164"
+    },
+    {
+        "id": 28446,
+        "name": "XRAY ABDOMEN",
+        "code": "X-Ray0165",
+        "category": 3,
+        "description": "An abdominal Xray can show the size shape and position of the liver spleen and kidneys. Look for stones in the gallbladder kidneys ureters or bladder. Look for air outside of the bowel (intestines). Find an object that has been swallowed or put into a body cavity.",
+        "instructions": [
+            "An abdominal xray requires no special preparation. You will be asked to remove some of your clothes and to wear a gown during the exam."
+        ],
+        "original_price": "550",
+        "discounted_price": "350",
+        "keywords": "XRAY ABDOMEN XRAY X RAY X RAY X-RAY RADIOGRAPH ABDOMEN STOMACH X-Ray0165"
+    },
+    {
+        "id": 28447,
+        "name": "XRAY ABDOMEN AND PELVIS STANDING CHILD",
+        "code": "X-Ray0166",
+        "category": 3,
+        "description": "An xray exam is a noninvasive medical test that helps doctors diagnose and treat medical conditions. Xray exams use a small dose of ionizing radiation to produce pictures of the inside of the body. Xrays are the oldest and most frequently used form of medical imaging.\r\nAn xray exam may be performed on newborns infants and older children.",
+        "instructions": [
+            "An abdominal xray requires no special preparation. You will be asked to remove some of your clothes and to wear a gown during the exam."
+        ],
+        "original_price": "500",
+        "discounted_price": "320",
+        "keywords": "XRAY ABDOMEN AND PELVIS STANDING CHILD XRAY X RAY X RAY X-RAY RADIOGRAPH ABDOMEN PELVIS STANDING CHILD CHILDREN STAND X-Ray0166"
+    },
+    {
+        "id": 28449,
+        "name": "XRAY RIGHT CLAVICLE AP",
+        "code": "X-Ray063",
+        "category": 3,
+        "description": "Coller Bone",
+        "instructions": [],
+        "original_price": "500",
+        "discounted_price": "320",
+        "keywords": "XRAY RIGHT CLAVICLE AP XRAY X RAY X RAY X-RAY RADIOGRAPH CLAVICLE BONE RIGHT CEPHALIC VIEW ANTERIOR POSTERIOR AP COLLAR BONE X-Ray063"
+    },
+    {
+        "id": 28450,
+        "name": "XRay Left Clavicle AP",
+        "code": "XRay0112",
+        "category": 3,
+        "description": "",
+        "instructions": [],
+        "original_price": "500",
+        "discounted_price": "320",
+        "keywords": "XRay Left Clavicle APXRay0112"
+    },
+    {
+        "id": 28451,
+        "name": "XRAY MAMOGRAPHY ONLY",
+        "code": "X-Ray014",
+        "category": 3,
+        "description": " mammogram is an Xray picture of the breast. Doctors use a mammogram to look for early signs of breast cancer. Regular mammograms are the best tests doctors have to find breast cancer early sometimes up to three years before it can be felt.",
+        "instructions": [],
+        "original_price": "1500",
+        "discounted_price": "1150",
+        "keywords": "XRAY MAMOGRAPHY ONLY XRAY X RAY X RAY X-RAY RADIOGRAPH CHEST MAMMOGRAPHY MAMOGRAPHY BREAST ONLY  X-Ray014"
+    },
+    {
+        "id": 477471,
+        "name": "(1→3) Beta D glucan (BDG) ,Serum",
+        "code": "",
+        "category": 4,
+        "description": "Serum(in SST).Collect sample in gel tube directly and send after centrifugation. Kindly do not open tube or separate serum from gel tube to another\ntube to avoid contamination. ( Seperated Serum is not acceptable for testing)",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "7500",
+        "discounted_price": "7500",
+        "keywords": ""
+    },
+    {
+        "id": 477474,
+        "name": "6 Hexadeconyl amino phosphoryl choline (Blood)",
+        "code": "",
+        "category": 4,
+        "description": "Sodium Heparin Whole Blood (Sample Stability 24 -48Hrs. Should Reach Agilus Mumbai. Preferably Within 24Hrs Of Collection Between Monday To\nFriday.",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "9800",
+        "discounted_price": "9310",
+        "keywords": ""
+    },
+    {
+        "id": 477477,
+        "name": "Achondroplasia (FGFR3 Full Gene Sequencing)",
+        "code": "",
+        "category": 4,
+        "description": "Age, Gender & Clinical History are Mandatory.",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "21400",
+        "discounted_price": "21400",
+        "keywords": ""
+    },
+    {
+        "id": 477494,
+        "name": "ADA - Adenosine Deaminase, Peritoneal fluid",
+        "code": "",
+        "category": 4,
+        "description": "",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "1020",
+        "discounted_price": "970",
+        "keywords": ""
+    },
+    {
+        "id": 477497,
+        "name": "Adenovirus PCR Qualitative  - CSF",
+        "code": "",
+        "category": 4,
+        "description": "",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "4815",
+        "discounted_price": "4570",
+        "keywords": ""
+    },
+    {
+        "id": 477514,
+        "name": "AFB Susceptibility Levofloxacin 1.0 mcg/mL",
+        "code": "",
+        "category": 4,
+        "description": "Isolate Identification Report From The Referring Lab Is Mandatory",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "3210",
+        "discounted_price": "3050",
+        "keywords": ""
+    },
+    {
+        "id": 477517,
+        "name": "AFB Susceptibility Moxifloxacin (1.0 mcg/mL)",
+        "code": "",
+        "category": 4,
+        "description": "Isolate Identification Report From The Referring Lab Is Mandatory",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "3210",
+        "discounted_price": "3050",
+        "keywords": ""
+    },
+    {
+        "id": 477520,
+        "name": "AFB Susceptibility Rifampicin  1 mcg/mL",
+        "code": "",
+        "category": 4,
+        "description": "Isolate Identification Report From The Referring Lab Is Mandatory",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "3210",
+        "discounted_price": "3050",
+        "keywords": ""
+    },
+    {
+        "id": 477534,
+        "name": "Allergen Specific IgE - Food Black Pepper Piper Nigrum",
+        "code": "",
+        "category": 4,
+        "description": "",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "1500",
+        "discounted_price": "1430",
+        "keywords": ""
+    },
+    {
+        "id": 477537,
+        "name": "Allergen Specific IgE  Strawberry (Fragaria Vesca)",
+        "code": "",
+        "category": 4,
+        "description": "Age, Gender & Clinical History are Mandatory.",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "1500",
+        "discounted_price": "1430",
+        "keywords": ""
+    },
+    {
+        "id": 477540,
+        "name": "Allergen Specific IgE Almond (Badam) (Amygdalus Communis)",
+        "code": "",
+        "category": 4,
+        "description": "Age, Gender & Clinical History are Mandatory.",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "1500",
+        "discounted_price": "1430",
+        "keywords": ""
+    },
+    {
+        "id": 477557,
+        "name": "Allergen Specific IgE Cladosporium Herbarum",
+        "code": "",
+        "category": 4,
+        "description": "Age, Gender & Clinical History are Mandatory.",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "1500",
+        "discounted_price": "1430",
+        "keywords": ""
+    },
+    {
+        "id": 477560,
+        "name": "Allergen Specific IgE Cocoa (Theobroma Cacao)",
+        "code": "",
+        "category": 4,
+        "description": "Age, Gender & Clinical History are Mandatory.",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "1500",
+        "discounted_price": "1430",
+        "keywords": ""
+    },
+    {
+        "id": 477577,
+        "name": "Allergen Specific IgE Drug Penicillin V (Penicilloyl V)",
+        "code": "",
+        "category": 4,
+        "description": "Age, Gender & Clinical History are Mandatory.",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "1500",
+        "discounted_price": "1430",
+        "keywords": ""
+    },
+    {
+        "id": 477580,
+        "name": "Allergen Specific IgE Garlic [Lehsun (Allium Sativum)]",
+        "code": "",
+        "category": 4,
+        "description": "Age, Gender & Clinical History are Mandatory.",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "1500",
+        "discounted_price": "1430",
+        "keywords": ""
+    },
+    {
+        "id": 477597,
+        "name": "Allergen Specific IgE Mugwort (Artemisia Vulgaris / Banobarna/Sita Bani)",
+        "code": "",
+        "category": 4,
+        "description": "Age, Gender & Clinical History are Mandatory.",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "1500",
+        "discounted_price": "1430",
+        "keywords": ""
+    },
+    {
+        "id": 477600,
+        "name": "Allergen Specific IgE Mustard [Sarson (Brassica / Sinapsis Spp.)]",
+        "code": "",
+        "category": 4,
+        "description": "Age, Gender & Clinical History are Mandatory.",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "1500",
+        "discounted_price": "1430",
+        "keywords": ""
+    },
+    {
+        "id": 477603,
+        "name": "Allergen Specific IgE Oat (Avena Sativa)",
+        "code": "",
+        "category": 4,
+        "description": "Age, Gender & Clinical History are Mandatory.",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "1500",
+        "discounted_price": "1430",
+        "keywords": ""
+    },
+    {
+        "id": 477617,
+        "name": "Allergen Specific IgE Rape Seed (Brassica Napus)",
+        "code": "",
+        "category": 4,
+        "description": "Age, Gender & Clinical History are Mandatory.",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "1500",
+        "discounted_price": "1430",
+        "keywords": ""
+    },
+    {
+        "id": 477620,
+        "name": "Allergen Specific IgE Salmon (Salmo Salar)",
+        "code": "",
+        "category": 4,
+        "description": "Age, Gender & Clinical History are Mandatory.",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "1500",
+        "discounted_price": "1430",
+        "keywords": ""
+    },
+    {
+        "id": 28175,
+        "name": "2. B.M.D TEST  TIBIA   ",
+        "code": "Cardio005",
+        "category": 5,
+        "description": "Osteoporosis is progressive metabolic bone disease that decreases bone density and features deterioration of bone structure. Dual-energy X-ray absorptiometry (DXA) is commonly used and reliable method to measure bone mineral density (BMD). Aim of this study was to determine normal ranges of BMD in left proximal tibia.",
+        "instructions": [],
+        "original_price": "1000",
+        "discounted_price": "600",
+        "keywords": "2. B.M.D TEST  TIBIA BMD BONE MINERAL DENSITY TEST TIBIA OSTEOPOROSIS  Cardio005"
+    },
+    {
+        "id": 28276,
+        "name": "2.\tB.M.D Test  Tibia   ",
+        "code": null,
+        "category": 5,
+        "description": "",
+        "instructions": [],
+        "original_price": "800",
+        "discounted_price": "600",
+        "keywords": "BMD Bone mineral density test TIBIA OSTEOPOROSIS "
+    },
+    {
+        "id": 28277,
+        "name": "B.M.D.",
+        "code": "Cardio006",
+        "category": 5,
+        "description": "Bone mineral density (BMD) is used for the diagnosis of osteoporosis predicting future fracture risk and monitoring osteoporosis treatment.",
+        "instructions": [],
+        "original_price": "1500",
+        "discounted_price": "1200",
+        "keywords": "B.M.D. BMD BONE MINERAL DENSITY TEST OSTEOPOROSIS  Cardio006"
+    },
+    {
+        "id": 28278,
+        "name": "EMG  ",
+        "code": "Cardio001",
+        "category": 5,
+        "description": "An electromyogram (EMG) is a test that is used to record the electrical activity of muscles. When muscles are active they produce an electrical current. This current is usually proportional to the level of the muscle activity. An EMG is also referred to as a myogram.",
+        "instructions": [
+            "For adults no special preparation is needed. For infants and children the physical and psychological preparation depends on the child's age behavior and prior experience. (For instance has the child been traumatized by another medical or dental procedure?)"
+        ],
+        "original_price": "4500",
+        "discounted_price": "3800",
+        "keywords": "EMG ELECTROMYOGRAPHY SKELETAL MUSCLES ELECTROMYOGRAM Cardio001"
+    },
+    {
+        "id": 28279,
+        "name": "EMG VER OR VEP",
+        "code": "Cardio002",
+        "category": 5,
+        "description": "Electromyography (EMG) is a diagnostic procedure that evaluates the health condition of muscles and the nerve cells that control them.",
+        "instructions": [],
+        "original_price": "2300",
+        "discounted_price": "1700",
+        "keywords": "EMG VER OR VEP EMG ELECTROMYOGRAPHY ELECTROMYOGRAM VISUAL EVOKED RESPONSE VISUAL EVOKED POTENTIAL VER VEP Cardio002"
+    },
+    {
+        "id": 28280,
+        "name": "EEG 1HR EXTRA ",
+        "code": "Cardio003",
+        "category": 5,
+        "description": "EMGs can be used to detect abnormal electrical activity of muscle that can occur in many diseases and conditions including muscular dystrophy inflammation of muscles pinched nerves peripheral nerve damage (damage to nerves in the arms and legs) amyotrophic lateral sclerosis (ALS) myasthenia gravis disc herniation and others",
+        "instructions": [],
+        "original_price": "4000",
+        "discounted_price": "3400",
+        "keywords": "EEG 1HR EXTRA  EEG ELECTROENCEPHALOGRAM ELECTRICAL ACTIVITY BRAIN ELECTRICAL IMPULSES NONINVASIVE ELECTRODES PROLONGED EXTRA 1 HOUR HR  Cardio003"
+    },
+    {
+        "id": 28281,
+        "name": "2 D ECHO FOR  CHILD",
+        "code": "Cardio004",
+        "category": 5,
+        "description": "Sonography Of Resting Heart",
+        "instructions": [],
+        "original_price": "4000",
+        "discounted_price": "3000",
+        "keywords": "2 D ECHO FOR  CHILD HEART SONOGRAPHY ECHOCARDIOGRAPHY ECHOCARDIOGRAM CHILD ECHO 2D Cardio004"
+    },
+    {
+        "id": 28282,
+        "name": "ECG  ",
+        "code": "Cardio010",
+        "category": 5,
+        "description": "An electrocardiogram (ECG) is a simple test that can be used to check your heart's rhythm and electrical activity. Sensors attached to the skin are used to detect the electrical signals produced by your heart each time it beats.",
+        "instructions": [],
+        "original_price": "500",
+        "discounted_price": "330",
+        "keywords": "ECG ELECTROCARDIOGRAM ECG HEART BLOOD CIRCULATION EKG CHEST Cardio010"
+    },
+    {
+        "id": 28283,
+        "name": "2 D ECHO",
+        "code": "Cardio011",
+        "category": 5,
+        "description": "2D Echocardiography or 2D Echo  It is a noninvasive heart investigation that creates images of the sections of the heart using sound vibrations. It presents the various parts of the heart as in pictures so that it becomes easy to check if there is any damage or blockages and blood flow rate.",
+        "instructions": [],
+        "original_price": "2500",
+        "discounted_price": "1990",
+        "keywords": "2 D ECHO HEART SONOGRAPHY ECHOCARDIOGRAPHY ECHOCARDIOGRAM ECHO 2D Cardio011"
+    },
+    {
+        "id": 28284,
+        "name": "PFT",
+        "code": "Cardio008",
+        "category": 5,
+        "description": "Pulmonary function tests (PFTs) are noninvasive tests that show how well the lungs are working. The tests measure lung volume capacity rates of flow and gas exchange. This information can help your healthcare provider diagnose and decide the treatment of certain lung disorders.",
+        "instructions": [],
+        "original_price": "2000",
+        "discounted_price": "1550",
+        "keywords": "PFT PULMONARY FUNCTION TEST RESPIRATORY SYSTEM PULMONARY FUNCTION IMPAIREMENT NONINVASIVE Cardio008"
+    },
+    {
+        "id": 58409,
+        "name": "EMG -NCV NERVE DAMAGE (NEUROPATHY",
+        "code": "Cardio012",
+        "category": 5,
+        "description": "",
+        "instructions": [],
+        "original_price": "4000",
+        "discounted_price": "3500",
+        "keywords": "EMG -NCV NERVE DAMAGE (NEUROPATHY) Cardio012"
+    },
+    {
+        "id": 83024,
+        "name": "EEG  ",
+        "code": "Cardio009",
+        "category": 5,
+        "description": "An EEG is a test that detects abnormalities in your brain waves, or in the electrical activity of your brain. During the procedure, electrodes consisting of small metal discs with thin wires are pasted onto your scalp. The electrodes detect tiny electrical charges that result from the activity of your brain cells. The charges are amplified and appear as a graph on a computer screen, or as a recording that may be printed out on paper. Your healthcare provider then interprets the reading.",
+        "instructions": [
+            "To prepare for your EEG you should \r\n\r\nDiscuss any medications you are taking with your doctor prior to your procedure.\r\n\r\nWash your hair the night before the test. Do not use hair cream oils or spray afterward.",
+            "wash your hair with shampoo "
+        ],
+        "original_price": "2500",
+        "discounted_price": "2050",
+        "keywords": "EEG ELECTROENCEPHALOGRAM ELECTRICAL ACTIVITY BRAIN ELECTRICAL IMPULSES NONINVASIVE ELECTRODES Cardio009"
+    },
+    {
+        "id": 448830,
+        "name": "STRESS TEST  OR  TMT",
+        "code": "Cardio007",
+        "category": 5,
+        "description": "Heart Conditions While Load",
+        "instructions": [
+            "for male only clean your chest"
+        ],
+        "original_price": "2500",
+        "discounted_price": "2210",
+        "keywords": "STRESS TEST  OR  TMT TMT TREADMILL TEST STRESS TEST ELECTROCARDIOGRAM ECG HEART BLOOD CIRCULATION Cardio007"
+    },
+    {
+        "id": 471533,
+        "name": "EEG PROLONGED",
+        "code": "",
+        "category": 5,
+        "description": "EEG PROLONGED ",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "2500",
+        "discounted_price": "2500",
+        "keywords": ""
+    },
+    {
+        "id": 471534,
+        "name": "HOME VISIT EEG OR EMG",
+        "code": "",
+        "category": 5,
+        "description": "HOME VISIT EEG OR EMG",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "500",
+        "discounted_price": "500",
+        "keywords": ""
+    },
+    {
+        "id": 471535,
+        "name": "SLEEP STUDY",
+        "code": "",
+        "category": 5,
+        "description": "SLEEP STUDY ",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "4000",
+        "discounted_price": "3500",
+        "keywords": ""
+    },
+    {
+        "id": 471536,
+        "name": "HOLTER MONITER 24HRS to 48 HRS",
+        "code": "",
+        "category": 5,
+        "description": "HOLTER MONITER 24HRS to 48 HRS",
+        "instructions": [
+            "NA",
+            "NA"
+        ],
+        "original_price": "4000",
+        "discounted_price": "3500",
+        "keywords": ""
+    },
+    {
+        "id": 28344,
+        "name": "MRI MRCP",
+        "code": "MRI023",
+        "category": 6,
+        "description": "An MRCP test is a specialized MRI exam that evaluates the hepatiobiliary and pancreatic systems including the liver gallbladder bile ducts pancreas and pancreatic duct. MRCP stands for Magnetic Resonance Cholangiopancreatography",
+        "instructions": [
+            "6 hours prior",
+            "Require Creatinine Report"
+        ],
+        "original_price": "10000",
+        "discounted_price": "6999",
+        "keywords": "MRI MRCP MRI MAGNETIC RESONANCE IMAGING MAGNETIC RESONANCE CHOLANGIOPANCREATOGRAPHY BILIARY PANCREAS DUCTS NONINVASIVE MRI023"
+    },
+    {
+        "id": 28345,
+        "name": "MRI PELVIS ",
+        "code": "MRI038",
+        "category": 6,
+        "description": "A pelvis MRI (magnetic resonance imaging) scan is an imaging test that uses a machine with powerful magnets and radio waves to create pictures of the area between the hip bones. This part of the body is called the pelvic area.",
+        "instructions": [
+            "4 hours prior"
+        ],
+        "original_price": "7000",
+        "discounted_price": "4999",
+        "keywords": "MRI PELVIS  MRI MAGNETIC RESONANCE IMAGING PELVIS MRI038"
+    },
+    {
+        "id": 28346,
+        "name": "MRI ABDOMEN & PELVIS CONTRAST",
+        "code": "MRI039",
+        "category": 6,
+        "description": "MR imaging of the abdomen and pelvis is performed to evaluate  organs of the abdomen such as the liver biliary tract kidneys spleen bowel pancreas and adrenal glands. organs of the pelvis such as the bladder and the reproductive organs such as the uterus and ovaries in females and the prostate gland in males.",
+        "instructions": [
+            "6 hours prior",
+            "Require Creatinine Report"
+        ],
+        "original_price": "15000",
+        "discounted_price": "12799",
+        "keywords": "MRI ABDOMEN & PELVIS CONTRAST MRI MAGNETIC RESONANCE IMAGING ABDOMEN PELVIS CONTRAST MRI039"
+    },
+    {
+        "id": 28347,
+        "name": "MRI ABDOMEN PELVIS PLAIN",
+        "code": "MRI040",
+        "category": 6,
+        "description": "MR imaging of the abdomen and pelvis is performed to evaluate  organs of the abdomen such as the liver biliary tract kidneys spleen bowel pancreas and adrenal glands. organs of the pelvis such as the bladder and the reproductive organs such as the uterus and ovaries in females and the prostate gland in males.",
+        "instructions": [
+            "4 hours prior"
+        ],
+        "original_price": "12000",
+        "discounted_price": "10299",
+        "keywords": "MRI ABDOMEN PELVIS PLAIN MRI MAGNETIC RESONANCE IMAGING ABDOMEN PELVIS PLAIN MRI040"
+    },
+    {
+        "id": 28348,
+        "name": "MRI ABDOMEN ",
+        "code": "MRI041",
+        "category": 6,
+        "description": "MR imaging of the abdomen and pelvis is performed to evaluate  organs of the abdomen such as the liver biliary tract kidneys spleen bowel pancreas and adrenal glands. organs of the pelvis such as the bladder and the reproductive organs such as the uterus and ovaries in females and the prostate gland in males.",
+        "instructions": [
+            "4 hours prior"
+        ],
+        "original_price": "7000",
+        "discounted_price": "4999",
+        "keywords": "MRI ABDOMEN  MRI MAGNETIC RESONANCE IMAGING ABDOMEN MRI041"
+    },
+    {
+        "id": 28349,
+        "name": "MRI ONLY ANGIO",
+        "code": "MRI002",
+        "category": 6,
+        "description": "To See Vessels Flow",
+        "instructions": [],
+        "original_price": "5000",
+        "discounted_price": "3800",
+        "keywords": "MRI ONLY ANGIO MRI MAGNETIC RESONANCE IMAGING ANGIO ANGIOGRAM MRI002"
+    },
+    {
+        "id": 28350,
+        "name": "MRI ONLY VENOGRAM",
+        "code": "MRI004",
+        "category": 6,
+        "description": "To See Vessels Flow",
+        "instructions": [],
+        "original_price": "3000",
+        "discounted_price": "2310",
+        "keywords": "MRI ONLY VENOGRAM MRI MAGNETIC RESONANCE IMAGING VENOGRAM  MRI004"
+    },
+    {
+        "id": 28351,
+        "name": "MRI BRAIN WITH ORBIT",
+        "code": "MRI005",
+        "category": 6,
+        "description": "The Orbit MRI is similar to the brain MRI with additional images specific to the eyes. This type of exam requires an injection of contrast. The contrast agent used by Elliot MRI is called Gadavist and requires that an IV be started in either your arm or hand.",
+        "instructions": [],
+        "original_price": "15000",
+        "discounted_price": "11000",
+        "keywords": "MRI BRAIN WITH ORBIT MRI MAGNETIC RESONANCE IMAGING ORBIT BRAIN MRI005"
+    },
+    {
+        "id": 28352,
+        "name": "MRI BRAIN WITH VENOGRAM",
+        "code": "MRI009",
+        "category": 6,
+        "description": "A diagnostic procedure that uses a combination of a large magnet radiofrequencies and a computer to produce detailed images of organs and structures within the body. An MRV uses magnetic resonance technology and intravenous (IV) contrast dye to visualize the veins.",
+        "instructions": [],
+        "original_price": "15000",
+        "discounted_price": "9999",
+        "keywords": "MRI BRAIN WITH VENOGRAM MRI MAGNETIC RESONANCE IMAGING BRAIN VENOGRAM  MRI009"
+    },
+    {
+        "id": 28353,
+        "name": "MRI VENOGRAPHY",
+        "code": "MRI010",
+        "category": 6,
+        "description": "To See Vessels Flow",
+        "instructions": [],
+        "original_price": "7600",
+        "discounted_price": "6780",
+        "keywords": "MRI VENOGRAPHY MRI MAGNETIC RESONANCE IMAGING VENOGRAPHY MRV MRI010"
+    },
+    {
+        "id": 28354,
+        "name": "MRI BRAIN SCREENING",
+        "code": "MRI017",
+        "category": 6,
+        "description": "(MRI) of the brain is a safe and painless test that uses a magnetic field and radio waves to produce detailed images of the brain and the brain stem. An MRI differs from a CAT scan (also called a CT scan or a computed axial tomography scan) because it does not use radiation.",
+        "instructions": [],
+        "original_price": "3500",
+        "discounted_price": "3000",
+        "keywords": "MRI BRAIN SCREENING MRI MAGNETIC RESONANCE IMAGING BRAIN BRAINSTEM NONINVASIVE  MRI017"
+    },
+    {
+        "id": 28355,
+        "name": "MRA BRAIN",
+        "code": "MRI019",
+        "category": 6,
+        "description": "MRI can detect a variety of conditions of the brain such as cysts tumors bleeding swelling developmental and structural abnormalities infections inflammatory conditions or problems with the blood vessels. It can determine if a shunt is working and detect damage to the brain caused by an injury or a stroke.",
+        "instructions": [],
+        "original_price": "8000",
+        "discounted_price": "6650",
+        "keywords": "MRA BRAIN MRI MAGNETIC RESONANCE ANGIOGRAPHY BRAIN MRI019"
+    },
+    {
+        "id": 28356,
+        "name": "MRI BRAIN WITH ANGIOGRAM",
+        "code": "MRI020",
+        "category": 6,
+        "description": "magnetic resonance angiogram or MRA–is a type of MRI that looks specifically at the body's blood vessels. Unlike a traditional angiogram which requires inserting a catheter into the body magnetic resonance angiography is a far less invasive and less painful test.",
+        "instructions": [],
+        "original_price": "15000",
+        "discounted_price": "9999",
+        "keywords": "MRI BRAIN WITH ANGIOGRAM MRI MAGNETIC RESONANCE IMAGING ANGIOGRAPHY  ANGIOGRAM BRAIN MRI020"
+    },
+    {
+        "id": 28357,
+        "name": "MRI DIFFUSION ",
+        "code": "MRI037",
+        "category": 6,
+        "description": "To Visualise Ischaemia",
+        "instructions": [],
+        "original_price": "3000",
+        "discounted_price": "2399",
+        "keywords": "MRI DIFFUSION  MRI MAGNETIC RESONANCE IMAGING DIFFUSION MRI037"
+    },
+    {
+        "id": 28358,
+        "name": "MRI BRAIN PLAIN",
+        "code": "MRI042",
+        "category": 6,
+        "description": " Magnetic resonance imaging (MRI) of the brain is a safe and painless test that uses a magnetic field and radio waves to produce detailed images of the brain and the brain stem. An MRI differs from a CAT scan (also called a CT scan or a computed axial tomography scan) because it does not use radiation.",
+        "instructions": [],
+        "original_price": "7000",
+        "discounted_price": "5599",
+        "keywords": "MRI BRAIN PLAIN MRI MAGNETIC RESONANCE IMAGING BRAIN PLAIN MRI042"
+    },
+    {
+        "id": 28359,
+        "name": "MRI BREST",
+        "code": "MRI029",
+        "category": 6,
+        "description": " MRI — is a test used to detect breast cancer and other abnormalities in the breast. A breast MRI captures multiple images of your breast. Breast MRI images are combined using a computer to create detailed pictures.",
+        "instructions": [],
+        "original_price": "7000",
+        "discounted_price": "5599",
+        "keywords": "MRI BREST MRI MAGNETIC RESONANCE IMAGING BRAIN PLAIN MRI029"
+    },
+    {
+        "id": 28360,
+        "name": "MRI ORBIT",
+        "code": "MRI022",
+        "category": 6,
+        "description": "The Orbit MRI is similar to the brain MRI with additional images specific to the eyes. ... This type of exam requires an injection of contrast. The contrast agent used by Elliot MRI is called Gadavist and requires that an IV be started in either your arm or hand.",
+        "instructions": [],
+        "original_price": "7000",
+        "discounted_price": "5599",
+        "keywords": "MRI ORBIT MRI MAGNETIC RESONANCE IMAGING ORBIT MRI022"
+    },
+    {
+        "id": 28361,
+        "name": "MRI ORBIT CUT",
+        "code": "MRI036",
+        "category": 6,
+        "description": "The Orbit MRI is similar to the brain MRI with additional images specific to the eyes. This type of exam requires an injection of contrast. The contrast agent used by Elliot MRI is called Gadavist and requires that an IV be started in either your arm or hand.",
+        "instructions": [],
+        "original_price": "2000",
+        "discounted_price": "1500",
+        "keywords": "MRI ORBIT CUT MRI MAGNETIC RESONANCE IMAGING ORBIT CUT MRI036"
+    },
+    {
+        "id": 28362,
+        "name": "MRI ANY SCREENING",
+        "code": "MRI001",
+        "category": 6,
+        "description": "A screening MRI is broad general overview. It is designed to screen for conditions (such as aneurysms and cancer) which may not have any symptoms in early disease. Diagnostic MRI is designed to look at a specific body part or body part area and is much more detailed in its scope. Screening MRI alone may help to identify a potential problem but may not fully characterize that problem and thus may lead to a need for a diagnostic MRI.",
+        "instructions": [],
+        "original_price": "3500",
+        "discounted_price": "3000",
+        "keywords": "MRI ANY SCREENING MRI MAGNETIC RESONANCE IMAGING SCREENING ANY MRI001"
+    },
+    {
+        "id": 28363,
+        "name": "MRI LEG ANGIO",
+        "code": "MRI003",
+        "category": 6,
+        "description": "Magnetic resonance imaging (MRI) uses a magnetic field radio waves and a computer to create detailed image slices (cross sections) of the various parts of your leg foot ankle and knee as well as the different types of tissue such as cartilage ligaments tendons and the meniscus (shock absorbers in the knee joint) ...",
+        "instructions": [],
+        "original_price": "12000",
+        "discounted_price": "9999",
+        "keywords": "MRI LEG ANGIO MRI  MAGNETIC RESONANCE IMAGING LEG ANGIO ANGIOGRAM ANGIOGRAPHY MRI003"
+    },
+    {
+        "id": 28181,
+        "name": "USG CHEST",
+        "code": "USG047",
+        "category": 8,
+        "description": "A chest ultrasound is a noninvasive diagnostic exam that produces images which used to assess the organs and structures within the chest such as the lungs mediastinum (area in the chest containing the heart aorta trachea esophagus thymus and lymph nodes) and pleural space (space between the lungs and the ...",
+        "instructions": [],
+        "original_price": "1500",
+        "discounted_price": "1320",
+        "keywords": "USG CHEST USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY CHEST BREAST  USG047"
+    },
+    {
+        "id": 28383,
+        "name": "USG  BOTH ARTERIAL DOPPLER  UPPER AND LOWER LIMB",
+        "code": "USG056",
+        "category": 8,
+        "description": "Ultrasound (US) and Doppler are often the first imaging to be carried out for arterial disease and with good reason. US is noninvasive free of radiation exposure and crucial for follow up imaging.",
+        "instructions": [],
+        "original_price": "11000",
+        "discounted_price": "9040",
+        "keywords": "USG  BOTH ARTERIAL DOPPLER  UPPER AND LOWER LIMB USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY ARTERIAL DOPPLER BOTH UPPER LOWER LIMB HANDS LEGS NONINVASIVE USG056"
+    },
+    {
+        "id": 28384,
+        "name": "USG ABDOMEN DOPPLER",
+        "code": "USG003",
+        "category": 8,
+        "description": "Abdominal Doppler ultrasound allows ultrasound specialists to evaluate blood flow through the arteries and veins of the abdomen. This procedure combines both traditional ultrasound and Doppler ultrasound which records sound waves that reflect off of moving objects like blood.",
+        "instructions": [
+            "2 Hours"
+        ],
+        "original_price": "4000",
+        "discounted_price": "2260",
+        "keywords": "USG ABDOMEN DOPPLER USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY ABDOMEN DOPPLER NONINVASIVE USG003"
+    },
+    {
+        "id": 28385,
+        "name": "USG PELVIS DOPPLER ",
+        "code": "USG005",
+        "category": 8,
+        "description": "pelvis Doppler ultrasound allows ultrasound specialists to evaluate blood flow through the arteries and veins of the abdomen. This procedure combines both traditional ultrasound and Doppler ultrasound which records sound waves that reflect off of moving objects like blood.",
+        "instructions": [
+            "2 Hours"
+        ],
+        "original_price": "2500",
+        "discounted_price": "2260",
+        "keywords": "USG PELVIS DOPPLER  USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY PELVIS DOPPLER NONINVASIVE USG005"
+    },
+    {
+        "id": 28386,
+        "name": "USG  WHOLE ABDOMEN FOR CHILD ",
+        "code": "USG006",
+        "category": 8,
+        "description": "children's (Pediatric) Ultrasound  Abdomen. Children's (pediatric) ultrasound imaging of the abdomen uses sound waves to produce images of the inside of the body. It does not use radiation and has no known harmful effects. It is very useful for evaluating the causes of abdominal pelvic or scrotal pain in children.",
+        "instructions": [
+            "According to doctor's consultation"
+        ],
+        "original_price": "1500",
+        "discounted_price": "950",
+        "keywords": "USG  WHOLE ABDOMEN FOR CHILD  USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY WHOLE ABDOMEN CHILD USG006"
+    },
+    {
+        "id": 28387,
+        "name": "USG PELVIS  3D OR 4D",
+        "code": "USG010",
+        "category": 8,
+        "description": "Threedimensional ultrasound (3D USG) is a fastevolving imaging technique that holds a great potential for use in gynecology. ... With 3D USG a coronal view of the uterus can be obtained clearly outlining the external contour of the uterus and providing accurate information about the shape of the cavity.4D ultrasounds are safe. Plus the images can help doctors spot a problem with your baby and make it easier for them to explain it to you. That said the concern for doctors is with companies that offer keepsake ultrasounds.",
+        "instructions": [
+            "4 hours prior"
+        ],
+        "original_price": "2000",
+        "discounted_price": "1500",
+        "keywords": "USG PELVIS  3D OR 4D USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY PELVIS 3D 4D USG010"
+    },
+    {
+        "id": 28388,
+        "name": "USG GUIDED ASCITES TAPPING ",
+        "code": "USG012",
+        "category": 8,
+        "description": "An ascitic tap is a medical procedure where a needle is used to drain fluid that is trapped in an internal body cavity most commonly the abdomen (belly).",
+        "instructions": [],
+        "original_price": "3000",
+        "discounted_price": "2500",
+        "keywords": "USG GUIDED ASCITES TAPPING  USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY ASCITES TAPPING ASCITIC TAP ABDOMINOCENTESIS USG012"
+    },
+    {
+        "id": 28389,
+        "name": "USG ABDOMEN AND PELVIS",
+        "code": "USG017",
+        "category": 8,
+        "description": "A Abdomen pelvic ultrasound is a noninvasive diagnostic exam that produces images that are used to assess organs and structures within the female pelvis. A pelvic ultrasound allows quick visualization of the female pelvic organs",
+        "instructions": [
+            "2 hours"
+        ],
+        "original_price": "2000",
+        "discounted_price": "1350",
+        "keywords": "USG ABDOMEN AND PELVIS USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY ABDOMEN PELVIS USG017"
+    },
+    {
+        "id": 28390,
+        "name": "USG UPPER ABDOMEN",
+        "code": "USG026",
+        "category": 8,
+        "description": "Ultrasound  Abdomen. Ultrasound imaging of the abdomen uses sound waves to produce pictures of the structures within the upper abdomen. It is used to help diagnose pain or distention (enlargement) and evaluate the kidneys liver gallbladder bile ducts pancreas spleen and abdominal aorta.",
+        "instructions": [
+            "2 hours"
+        ],
+        "original_price": "1200",
+        "discounted_price": "800",
+        "keywords": "USG UPPER ABDOMEN USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY UPPER ABDOMEN USG026"
+    },
+    {
+        "id": 28391,
+        "name": "USG PELVIS",
+        "code": "USG040",
+        "category": 8,
+        "description": "A pelvic ultrasound is a noninvasive diagnostic exam that produces images that are used to assess organs and structures within the female pelvis. A pelvic ultrasound allows quick visualization of the female pelvic organs and structures including the uterus cervix vagina fallopian tubes and ovaries.",
+        "instructions": [
+            "2 hours"
+        ],
+        "original_price": "1200",
+        "discounted_price": "1020",
+        "keywords": "USG PELVIS USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY PELVIS USG040"
+    },
+    {
+        "id": 28392,
+        "name": "USG SKULL ",
+        "code": "USG032",
+        "category": 8,
+        "description": "Cranial ultrasound uses reflected sound waves to make pictures of the brain and its inner fluid chambers (ventricles). Cerebrospinal fluid flows through these chambers. This test is most commonly done on babies.",
+        "instructions": [],
+        "original_price": "1200",
+        "discounted_price": "800",
+        "keywords": "USG SKULL  USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY SKULL HEAD USG032"
+    },
+    {
+        "id": 28393,
+        "name": "USG SONOMAMMOGRAPHY",
+        "code": "USG031",
+        "category": 8,
+        "description": "Sonomammography or breast ultrasound is a noninvasive procedure performed to assess the breasts and the blood flow to areas inside it. This test allows quick visualization of the breast tissue.",
+        "instructions": [],
+        "original_price": "1500",
+        "discounted_price": "1150",
+        "keywords": "USG SONOMAMMOGRAPHY USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY MAMMOGRAPHY SONOMAMMOGRAPHY USG031"
+    },
+    {
+        "id": 28394,
+        "name": "USG BREAST",
+        "code": "USG048",
+        "category": 8,
+        "description": "Breast ultrasound uses sound waves to make images of the breast. Ultrasound images may be called sonograms. Breast ultrasound is a noninvasive test. It's often used as a followup test after an abnormal finding on a mammogram breast MRI or clinical breast exam.",
+        "instructions": [],
+        "original_price": "1500",
+        "discounted_price": "1150",
+        "keywords": "USG BREAST USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY SONOMAMMOGRAPHY MAMMOGRAPHY BREAST CHEST  USG048"
+    },
+    {
+        "id": 28396,
+        "name": "USG CAROTID DOPPLER",
+        "code": "USG048",
+        "category": 8,
+        "description": " carotid Doppler is an imaging test that uses ultrasound to examine the carotid arteries located in the neck. This test can show narrowing or possible blockages due to plaque buildup in the arteries due to coronary artery disease.",
+        "instructions": [],
+        "original_price": "3200",
+        "discounted_price": "2260",
+        "keywords": "USG CAROTID DOPPLER USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY CAROTID ARTERY DOPPLER NONINVASIVE ARTERIES NECK BRAIN USG048"
+    },
+    {
+        "id": 28397,
+        "name": "USG VENOUS DOPPLER BOTH LOWER LIMB",
+        "code": "USG021",
+        "category": 8,
+        "description": "Venous Doppler Both Lower Limb? A Doppler ultrasound is a radiological investigation which uses reflected sound waves to see how blood flows through a blood vessel. It helps clinicians evaluate blood flow through major arteries and veins such as those of the arms legs and neck.",
+        "instructions": [],
+        "original_price": "5500",
+        "discounted_price": "4520",
+        "keywords": "USG VENOUS DOPPLER BOTH LOWER LIMB USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY VENOUS VEINS BOTH LOWER LIMB LEGS DOPPLER NONINVASIVE USG021"
+    },
+    {
+        "id": 28398,
+        "name": "USG VENOUS DOPPLER LOWER LIMB",
+        "code": "USG023",
+        "category": 8,
+        "description": "Venous Doppler Both Lower Limb? A Doppler ultrasound is a radiological investigation which uses reflected sound waves to see how blood flows through a blood vessel. It helps clinicians evaluate blood flow through major arteries and veins such as those of the arms legs and neck.",
+        "instructions": [],
+        "original_price": "3000",
+        "discounted_price": "2260",
+        "keywords": "USG VENOUS DOPPLER LOWER LIMB USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY VENOUS VEINS LOWER LIMB LEG USG023"
+    },
+    {
+        "id": 28399,
+        "name": "USG THIGH",
+        "code": "USG030",
+        "category": 8,
+        "description": "Ultrasound of the thigh presents unique challenges because of the size and length of multiple structures including tendons muscles nerves and vessels. Those performing ultrasound can use a focal approach a comprehensive approach or a compartmental and flexible approach.",
+        "instructions": [],
+        "original_price": "1500",
+        "discounted_price": "1320",
+        "keywords": "USG THIGH USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY THIGH LEG USG030"
+    },
+    {
+        "id": 28400,
+        "name": "USG ARTERIAL DOPPLER  RIGHT LOWER LIMB",
+        "code": "USG053",
+        "category": 8,
+        "description": "A Doppler ultrasound is a test that uses highfrequency sound waves to measure the amount of blood flow through your arteries and veins usually those that supply blood to your arms and legs. Vascular flow studies also known as blood flow studies can detect abnormal flow within an artery or blood vessel.",
+        "instructions": [],
+        "original_price": "3000",
+        "discounted_price": "2260",
+        "keywords": "USG ARTERIAL DOPPLER  RIGHT LOWER LIMB USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY ARTERIAL ARTERIES DOPPLER RIGHT LOWER LIMB LEG NONINVASIVE USG053"
+    },
+    {
+        "id": 28401,
+        "name": "USG ARTERIAL DOPPLER  LEFT LOWER LIMB",
+        "code": "USG055",
+        "category": 8,
+        "description": "A Doppler ultrasound is a test that uses highfrequency sound waves to measure the amount of blood flow through your arteries and veins usually those that supply blood to your arms and legs. Vascular flow studies also known as blood flow studies can detect abnormal flow within an artery or blood vessel.",
+        "instructions": [],
+        "original_price": "3000",
+        "discounted_price": "2260",
+        "keywords": "USG ARTERIAL DOPPLER  LEFT LOWER LIMB USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY ARTERIAL ARTERIES DOPPLER LEFT LOWER LIMB LEG NONINVASIVE USG055"
+    },
+    {
+        "id": 28402,
+        "name": "USG ARTERIAL DOPPLER  BOTH LOWER LIMB",
+        "code": "USG057",
+        "category": 8,
+        "description": "A Doppler ultrasound is a test that uses highfrequency sound waves to measure the amount of blood flow through your arteries and veins usually those that supply blood to your arms and legs. Vascular flow studies also known as blood flow studies can detect abnormal flow within an artery or blood vessel.",
+        "instructions": [],
+        "original_price": "5500",
+        "discounted_price": "4520",
+        "keywords": "USG ARTERIAL DOPPLER  BOTH LOWER LIMB USG SONOGRAPHY ULTRASOUND ULTRASONOGRAPHY ARTERIAL ARTERIES DOPPLER BOTH LOWER LIMB LEGS NONINVASIVE USG057"
+    }
+]
