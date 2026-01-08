@@ -4,7 +4,7 @@ import { map, Observable } from 'rxjs';
 import { SampleCollectionDay, Test, TestCategory } from '../models/test.model';
 import { mapBackendTestToUI } from '../mappers/test.mapper';
 
-@Injectable({ providedIn: 'root' })
+@Injectable()
 export class TestsService {
   constructor(private http: HttpClient) {}
 

@@ -1,8 +1,26 @@
 [
-    { "id": 1, "name": "CT Scan" },
-    { "id": 3, "name": "XRay" },
-    { "id": 4, "name": "Pathology" },
-    { "id": 5, "name": "Cardio" },
-    { "id": 6, "name": "MRI" },
-    { "id": 8, "name": "Sonography" }
-  ]
+    {
+        "id": 1,
+        "name": "CT Scan"
+    },
+    {
+        "id": 3,
+        "name": "XRay"
+    },
+    {
+        "id": 4,
+        "name": "Pathology"
+    },
+    {
+        "id": 5,
+        "name": "Cardio"
+    },
+    {
+        "id": 6,
+        "name": "MRI"
+    },
+    {
+        "id": 8,
+        "name": "Sonography"
+    }
+]

@@ -1,12 +1,12 @@
 import { Component, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import * as BookingActions from '../../store/booking.actions';
 import * as BookingSelectors from '../../store/booking.selectors';
 import { selectSelectedTests } from '../../store/booking.selectors';
-import { TestsService } from '../../services/tests.service';
-import { Test } from '../../models/test.model';
+import { Test, TestCategory } from '../../models/test.model';
+import { map } from 'rxjs/operators';
 
 @Component({
     selector: 'app-tests',
@@ -16,9 +16,17 @@ import { Test } from '../../models/test.model';
 })
 export class TestsComponent {
     private store = inject(Store);
-    private testsService = inject(TestsService);
+    private route = inject(ActivatedRoute);
 
-    tests$ = this.testsService.getTests();
+    categories$ = this.route.data.pipe(
+        map(data => data['categories'] as TestCategory[])
+    );
+
+    selectedCategoryId = () => Number(this.route.snapshot.paramMap.get('categoryId')) || null;
+
+    tests$ = this.route.data.pipe(
+        map(data => data['tests'])
+    );
     selectedTests = this.store.selectSignal(selectSelectedTests);
     selectedTestsCount = this.store.selectSignal(
         BookingSelectors.selectSelectedTests
