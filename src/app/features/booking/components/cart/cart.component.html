@@ -1,28 +1,61 @@
-<h2>Review Your Tests Selection</h2>
+<div class="container">
+    <!-- Page Header -->
+    <div class="mb-4">
+        <h2 class="mb-2">Review Your Selection</h2>
+        <p class="text-muted">
+            Please review the selected services before proceeding.
+        </p>
+    </div>
 
-@if (selectedTests().length === 0) {
-  <p>No tests selected yet.</p>
-  <a routerLink="/booking/tests">Go back to test selection</a>
-} @else {
-  <ul>
-    @for (test of selectedTests(); track test.id) {
-      <li>
-        <strong>{{ test.name }}</strong>
-        — ₹{{ test.discounted_price ||  test.original_price}}
-        <button (click)="removeTest(test.id)"> Remove </button>
-      </li>
+    <!-- Empty State -->
+    @if (selectedTests().length === 0) {
+    <div class="alert alert-light border">
+        <p class="mb-3">No services selected yet.</p>
+        <a class="btn btn-outline-primary btn-sm" routerLink="/booking/tests">
+            Go back to selection
+        </a>
+    </div>
+    } @else {
+
+    <!-- Selected Services -->
+    <div class="row g-3 mb-4">
+        @for (test of selectedTests(); track test.id) {
+        <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+                <div class="card-body d-flex justify-content-between align-items-start">
+                    <div>
+                        <h6 class="mb-1">{{ test.name }}</h6>
+                        <div class="text-muted">
+                            ₹{{ test.discounted_price || test.original_price }}
+                        </div>
+                    </div>
+
+                    <button class="btn btn-sm btn-outline-danger" (click)="removeTest(test.id)">
+                        Remove
+                    </button>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+
+    <!-- Summary -->
+    <div class="card mb-4">
+        <div class="card-body d-flex justify-content-between align-items-center">
+            <strong>Total Amount</strong>
+            <strong>₹{{ totalAmount() }}</strong>
+        </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="d-flex justify-content-between">
+        <a class="btn btn-outline-secondary" routerLink="/booking/tests">
+            ← Modify Selection
+        </a>
+
+        <a class="btn btn-primary" routerLink="/booking/schedule" [class.disabled]="selectedTests().length === 0">
+            Proceed to Schedule →
+        </a>
+    </div>
     }
-  </ul>
-
-  <hr />
-
-  <p>
-    <strong>Total:</strong> ₹{{ totalAmount() }}
-  </p>
-
-  <div class="actions">
-    <a routerLink="/booking/tests"> Modify Tests </a>  
-    <a routerLink="/booking/schedule" [class.disabled]="selectedTests().length === 0"> Proceed to Schedule </a>
-  </div>
-  
-}
+</div>

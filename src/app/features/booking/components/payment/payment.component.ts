@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { Store } from '@ngrx/store';
 import * as BookingSelectors from '../../store/booking.selectors';
 import * as BookingActions from '../../store/booking.actions';
@@ -13,18 +13,31 @@ import * as BookingActions from '../../store/booking.actions';
 })
 export class PaymentComponent {
     private store = inject(Store);
+    private router = inject(Router);
 
-    selectedTests = this.store.selectSignal(
+    selectedServices = this.store.selectSignal(
         BookingSelectors.selectSelectedTests
+    );
+
+    appointment = this.store.selectSignal(
+        BookingSelectors.selectAppointment
     );
 
     totalAmount = this.store.selectSignal(
         BookingSelectors.selectTotalAmount
     );
 
-    removeTest(testId: number): void {
-        this.store.dispatch(
-            BookingActions.removeTest({ testId })
-        );
+    paymentStatus = this.store.selectSignal(
+        BookingSelectors.selectPaymentStatus
+    );
+
+    payNow(): void {
+        this.store.dispatch(BookingActions.startPayment());
+
+        // MOCK PAYMENT FLOW
+        setTimeout(() => {
+            this.store.dispatch(BookingActions.paymentSuccess());
+            this.router.navigate(['/booking/confirmation']);
+        }, 1500);
     }
 }

@@ -1,13 +1,21 @@
-<header class="app-header">
-	<div class="brand">
-		<span>Pathology Portal</span>
-	</div>
+<header class="border-bottom mb-4">
+  <div class="container d-flex justify-content-between align-items-center py-3">
+    <strong>Pathology Portal</strong>
+
+    <nav>
+      <a class="me-3" routerLink="/booking/cart">Cart</a>
+      <a class="me-3" routerLink="/booking/schedule">Schedule</a>
+      <a routerLink="/booking/payment">Payment</a>
+    </nav>
+  </div>
 </header>
 
-<main class="container app-content">
-	<router-outlet />
+<main class="container mb-5">
+  <router-outlet />
 </main>
 
-<footer class="app-footer">
-	<span>© Diagnostic Center</span>
+<footer class="border-top py-3">
+  <div class="container text-muted small">
+    © Diagnostic Center
+  </div>
 </footer>

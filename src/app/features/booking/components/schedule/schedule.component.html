@@ -1,34 +1,58 @@
-<h2>Select Sample Collection Slot</h2>
+<div class="container">
+    <!-- Page Header -->
+    <div class="mb-4">
+        <h2 class="mb-2">Select Sample Collection Slot</h2>
+        <p class="text-muted">
+            Choose a preferred date and time for sample collection.
+        </p>
+    </div>
 
-@if (days$ | async; as days) {
-<div class="days">
-    @for (day of days; track day.date) {
-    <div class="day">
-        <button (click)="selectDate(day.date)">
-            {{ day.date }}
-        </button>
+    @if (days$ | async; as days) {
 
-        @if (selectedDate() === day.date) {
-        <div class="slots">
-            @for (slot of day.slots; track slot) {
-            <button (click)="selectTime(slot)">
-                {{ slot }}
-            </button>
-            }
+    <!-- Dates -->
+    <div class="row g-3 mb-4">
+        @for (day of days; track day.date) {
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <!-- Date Button -->
+                    <button class="btn w-100 mb-2" [class.btn-primary]="selectedDate() === day.date"
+                        [class.btn-outline-primary]="selectedDate() !== day.date" (click)="selectDate(day.date)">
+                        {{ day.date }}
+                    </button>
+
+                    <!-- Time Slots -->
+                    @if (selectedDate() === day.date) {
+                    <div class="d-grid gap-2">
+                        @for (slot of day.slots; track slot) {
+                        <button class="btn btn-sm" [class.btn-success]="selectedTime() === slot"
+                            [class.btn-outline-secondary]="selectedTime() !== slot" (click)="selectTime(slot)">
+                            {{ slot }}
+                        </button>
+                        }
+                    </div>
+                    }
+                </div>
+            </div>
         </div>
         }
     </div>
+
+    <!-- Actions -->
+    <div class="d-flex justify-content-between align-items-center">
+        <a class="btn btn-outline-secondary" routerLink="/booking/cart">
+            ← Back to Cart
+        </a>
+
+        <button class="btn btn-primary" [disabled]="!selectedDate() || !selectedTime()" (click)="confirmAppointment()"
+            routerLink="/booking/payment">
+            Proceed to Payment →
+        </button>
+    </div>
+
+    } @else {
+    <div class="text-center my-5">
+        <div class="spinner-border text-primary" role="status"></div>
+    </div>
     }
 </div>
-
-<div class="actions">
-    <a routerLink="/booking/cart"> ← Back to Cart </a>
-
-    <button [disabled]="!selectedDate() || !selectedTime()" (click)="confirmAppointment()" routerLink="/booking/payment">
-        Proceed to Payment →
-    </button>
-</div>
-
-} @else {
-<p>Loading available slots...</p>
-}
