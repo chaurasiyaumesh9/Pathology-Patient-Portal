@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "analyze-bundle": "ng build --configuration=analyze-bundle && source-map-explorer dist/**/*.js --no-border-checks",
     "test": "ng test"
   },
   "prettier": {
@@ -42,6 +43,7 @@
     "@angular/cli": "^21.0.4",
     "@angular/compiler-cli": "^21.0.0",
     "jsdom": "^27.1.0",
+    "source-map-explorer": "^2.5.3",
     "typescript": "~5.9.2",
     "vitest": "^4.0.8"
   }
