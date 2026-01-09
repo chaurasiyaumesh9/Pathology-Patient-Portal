@@ -1,61 +1,80 @@
-<div class="container">
-    <!-- Page Header -->
-    <div class="mb-4">
-        <h2 class="mb-2">Review Your Selection</h2>
+<main class="container">
+    <!-- Page header -->
+    <header class="mb-4">
+        <h1 class="h2 mb-2">Review Your Selection</h1>
         <p class="text-muted">
             Please review the selected services before proceeding.
         </p>
-    </div>
+    </header>
 
-    <!-- Empty State -->
     @if (selectedTests().length === 0) {
-    <div class="alert alert-light border">
+    <!-- Empty state -->
+    <section class="alert alert-light border" role="status" aria-live="polite">
         <p class="mb-3">No services selected yet.</p>
         <a class="btn btn-outline-primary btn-sm" routerLink="/booking/tests">
             Go back to selection
         </a>
-    </div>
+    </section>
     } @else {
 
-    <!-- Selected Services -->
-    <div class="row g-3 mb-4">
-        @for (test of selectedTests(); track test.id) {
-        <div class="col-md-6 col-lg-4">
-            <div class="card h-100">
-                <div class="card-body d-flex justify-content-between align-items-start">
-                    <div>
-                        <h6 class="mb-1">{{ test.name }}</h6>
-                        <div class="text-muted">
-                            ₹{{ test.discounted_price || test.original_price }}
-                        </div>
-                    </div>
+    <div class="row g-4">
+        <!-- LEFT: Cart items -->
+        <section class="col-lg-8" aria-labelledby="cart-items-heading">
+            <h2 id="cart-items-heading" class="visually-hidden">
+                Selected services
+            </h2>
 
-                    <button class="btn btn-sm btn-outline-danger" (click)="removeTest(test.id)">
-                        Remove
-                    </button>
+            <ul class="row g-3 list-unstyled">
+                @for (test of selectedTests(); track test.id) {
+                <li class="col-md-6">
+                    <article class="card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <div class="mb-3">
+                                <h3 class="h6 mb-1">
+                                    {{ test.name }}
+                                </h3>
+                                <p class="text-muted mb-0">
+                                    ₹{{ test.discounted_price || test.original_price }}
+                                </p>
+                            </div>
+
+                            <div class="mt-auto text-end">
+                                <button type="button" class="btn btn-sm btn-outline-danger"
+                                    (click)="removeTest(test.id)" aria-label="Remove {{ test.name }} from selection">
+                                    Remove
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                }
+            </ul>
+        </section>
+
+        <!-- RIGHT: Summary -->
+        <aside class="col-lg-4" aria-labelledby="summary-heading">
+            <div class="card mb-3">
+                <div class="card-body d-flex justify-content-between align-items-center">
+                    <h2 id="summary-heading" class="h6 mb-0">
+                        Total Amount
+                    </h2>
+                    <strong aria-live="polite">
+                        ₹{{ totalAmount() }}
+                    </strong>
                 </div>
             </div>
-        </div>
-        }
+
+            <div class="d-grid gap-2">
+                <a class="btn btn-primary" routerLink="/booking/schedule">
+                    Proceed to Schedule
+                </a>
+
+                <a class="btn btn-outline-secondary" routerLink="/booking/tests">
+                    Go Back
+                </a>
+            </div>
+        </aside>
     </div>
 
-    <!-- Summary -->
-    <div class="card mb-4">
-        <div class="card-body d-flex justify-content-between align-items-center">
-            <strong>Total Amount</strong>
-            <strong>₹{{ totalAmount() }}</strong>
-        </div>
-    </div>
-
-    <!-- Actions -->
-    <div class="d-flex justify-content-between">
-        <a class="btn btn-outline-secondary" routerLink="/booking/tests">
-            ← Modify Selection
-        </a>
-
-        <a class="btn btn-primary" routerLink="/booking/schedule" [class.disabled]="selectedTests().length === 0">
-            Proceed to Schedule →
-        </a>
-    </div>
     }
-</div>
+</main>

@@ -55,12 +55,12 @@
     <!-- Navigation actions -->
     <nav class="d-flex justify-content-between align-items-center" aria-label="Schedule navigation">
         <a class="btn btn-outline-secondary" routerLink="/booking/cart">
-            ← Back to Cart
+            Back to Cart
         </a>
 
         <button type="button" class="btn btn-primary" [disabled]="!selectedDate() || !selectedTime()"
             (click)="confirmAppointment()" routerLink="/booking/payment">
-            Proceed to Payment →
+            Proceed to Payment
         </button>
     </nav>
 

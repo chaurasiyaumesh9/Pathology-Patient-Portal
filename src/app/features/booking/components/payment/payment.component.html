@@ -1,59 +1,94 @@
-<div class="container">
-    <!-- Page Header -->
-    <div class="mb-4">
-        <h2 class="mb-2">Payment</h2>
-        <p class="text-muted">
-            Please review your booking details and complete the payment.
-        </p>
+<main class="container">
+  <!-- Page header -->
+  <header class="mb-4">
+    <h1 class="h2 mb-2">Payment</h1>
+    <p class="text-muted">
+      Please review your booking details and complete the payment.
+    </p>
+  </header>
+
+  <!-- Booking summary -->
+  <section
+    class="card mb-4"
+    aria-labelledby="booking-summary-heading"
+  >
+    <div class="card-body">
+      <h2
+        id="booking-summary-heading"
+        class="h5 mb-3"
+      >
+        Selected Test(s)
+      </h2>
+
+      <!-- Services list -->
+      <ul
+        class="list-group list-group-flush mb-3"
+        aria-label="Selected services and prices"
+      >
+        @for (service of selectedServices(); track service.id) {
+          <li
+            class="list-group-item d-flex justify-content-between align-items-start"
+          >
+            <span>{{ service.name }}</span>
+            <span>
+              ₹{{ service.discounted_price || service.original_price }}
+            </span>
+          </li>
+        }
+      </ul>
+
+      <!-- Total -->
+      <div
+        class="d-flex justify-content-between border-top pt-3"
+        aria-live="polite"
+      >
+        <strong>Total Amount</strong>
+        <strong>₹{{ totalAmount() }}</strong>
+      </div>
+
+      <!-- Appointment info -->
+      @if (appointment()) {
+        <section
+          class="mt-3 text-muted small"
+          aria-labelledby="appointment-heading"
+        >
+          <h3
+            id="appointment-heading"
+            class="visually-hidden"
+          >
+            Sample collection appointment
+          </h3>
+          <strong>Sample Collection:</strong><br />
+          {{ appointment()!.date }} at {{ appointment()!.time }}
+        </section>
+      }
     </div>
+  </section>
 
-    <!-- Booking Summary Card -->
-    <div class="card mb-4">
-        <div class="card-body">
-            <h5 class="card-title mb-3">Selected Services</h5>
+  <!-- Payment actions -->
+  <nav
+    class="d-flex justify-content-between align-items-center"
+    aria-label="Payment actions"
+  >
+    <a
+      class="btn btn-outline-secondary"
+      routerLink="/booking/schedule"
+    >
+      Change Schedule
+    </a>
 
-            <!-- Selected Services List -->
-            <ul class="list-group list-group-flush mb-3">
-                @for (service of selectedServices(); track service.id) {
-                <li class="list-group-item d-flex justify-content-between align-items-start">
-                    <div>
-                        <strong>{{ service.name }}</strong>
-                    </div>
-                    <span>
-                        ₹{{ service.discounted_price || service.original_price }}
-                    </span>
-                </li>
-                }
-            </ul>
-
-            <!-- Total -->
-            <div class="d-flex justify-content-between border-top pt-3">
-                <strong>Total Amount</strong>
-                <strong>₹{{ totalAmount() }}</strong>
-            </div>
-
-            <!-- Appointment Info -->
-            @if (appointment()) {
-            <div class="mt-3 text-muted small">
-                <strong>Sample Collection:</strong><br />
-                {{ appointment()!.date }} at {{ appointment()!.time }}
-            </div>
-            }
-        </div>
-    </div>
-
-    <!-- Actions -->
-    <div class="d-flex justify-content-between align-items-center">
-        <a class="btn btn-outline-secondary" routerLink="/booking/schedule">
-            ← Change Schedule
-        </a>
-
-        <button class="btn btn-primary" [disabled]="paymentStatus() === 'processing'" (click)="payNow()">
-            @if (paymentStatus() === 'processing') {
-            Processing…
-            } @else {
-            Pay ₹{{ totalAmount() }}
-            }
-        </button>
-    </div>
-</div>
+    <button
+      type="button"
+      class="btn btn-primary"
+      [disabled]="paymentStatus() === 'processing'"
+      [attr.aria-busy]="paymentStatus() === 'processing'"
+      (click)="payNow()"
+    >
+      @if (paymentStatus() === 'processing') {
+        Processing…
+      } @else {
+        Pay ₹{{ totalAmount() }}
+      }
+    </button>
+  </nav>
+</main>
