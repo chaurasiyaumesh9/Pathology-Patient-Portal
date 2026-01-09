@@ -1,0 +1,24 @@
+@use '../abstracts/brand' as brand;
+
+.btn {
+  font-weight: 500;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: brand.$brand-primary;
+  border-color: brand.$brand-primary;
+}
+
+.btn-primary:hover {
+  filter: brightness(0.95);
+}
+
+.btn-outline-primary {
+  color: brand.$brand-primary;
+  border-color: brand.$brand-primary;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgba(31, 79, 216, 0.06);
+}

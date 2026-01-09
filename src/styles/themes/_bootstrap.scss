@@ -1,0 +1,28 @@
+@use '../abstracts/brand' as brand;
+
+/*
+  Bootstrap configuration bridge
+  This is the ONLY place Bootstrap variables are set
+*/
+@forward 'bootstrap/scss/bootstrap' with (
+  /* Colors */
+  $primary: brand.$brand-primary,
+  $secondary: brand.$brand-secondary,
+  $success: brand.$brand-success,
+
+  /* Body */
+  $body-bg: brand.$brand-background,
+  $body-color: brand.$font-base-color,
+  $border-color: brand.$brand-border,
+
+  /* Text */
+  $text-muted: brand.$font-muted-color,
+
+  /* Buttons */
+  $btn-border-radius: brand.$radius-md,
+  $btn-font-weight: 500,
+  $btn-focus-box-shadow: none,
+
+  /* Cards */
+  $card-border-radius: brand.$radius-lg,
+);
