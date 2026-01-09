@@ -1,6 +1,6 @@
 import { inject } from '@angular/core';
 import { CanActivateFn, Router } from '@angular/router';
-import { BookingStore } from '../store/booking.state';
+import { BookingStore } from '../store/booking.store';
 
 export const cartNotEmptyGuard: CanActivateFn = () => {
   const bookingStore = inject(BookingStore);

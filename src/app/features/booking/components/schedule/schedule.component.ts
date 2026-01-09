@@ -1,7 +1,7 @@
 import { Component, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, RouterLink } from '@angular/router';
-import { BookingStore } from '../../store/booking.state';
+import { BookingStore } from '../../store/booking.store';
 import { SampleCollectionDay } from '../../models/test.model';
 
 @Component({

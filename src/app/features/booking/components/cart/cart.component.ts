@@ -1,7 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
-import { BookingStore } from '../../store/booking.state';
+import { BookingStore } from '../../store/booking.store';
 
 @Component({
     selector: 'app-cart',

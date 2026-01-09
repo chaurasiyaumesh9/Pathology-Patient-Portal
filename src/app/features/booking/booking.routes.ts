@@ -4,7 +4,7 @@ import { TestsService } from './services/tests.service';
 import { testsResolver } from './resolvers/tests.resolver';
 import { testsByCategoryResolver } from './resolvers/tests-by-category.resolver';
 import { testCategoriesResolver } from './resolvers/test-categories.resolver';
-import { BookingStore } from './store/booking.state';
+import { BookingStore } from './store/booking.store';
 import { availableSlotsResolver } from './resolvers/available-slots.resolver';
 
 export const BOOKING_ROUTES: Routes = [

@@ -4,7 +4,7 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { Test, TestCategory } from '../../models/test.model';
 import { map } from 'rxjs/operators';
 import { toSignal } from '@angular/core/rxjs-interop';
-import { BookingStore } from '../../store/booking.state';
+import { BookingStore } from '../../store/booking.store';
 
 @Component({
     selector: 'app-tests',
