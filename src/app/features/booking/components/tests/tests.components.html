@@ -1,56 +1,79 @@
-<div class="container">
+<main class="container">
     <div class="row">
-        <!-- LEFT: Categories -->
+
+        <!-- LEFT: Categories Navigation -->
         <aside class="col-lg-3 col-md-4 mb-4">
-            <h6 class="mb-3">Categories</h6>
+            <nav aria-label="Test categories">
+                <h6 class="mb-3">Categories</h6>
 
-            @if (categories$ | async; as categories) {
-            <div class="list-group">
-                <!-- All Tests -->
-                <a class="list-group-item list-group-item-action" [class.active]="!selectedCategoryId()"
-                    routerLink="/booking/tests">
-                    All Services
-                </a>
+                @if (categories$ | async; as categories) {
+                <div class="list-group">
+                    <a class="list-group-item list-group-item-action" [class.active]="!selectedCategoryId()"
+                        routerLink="/booking/tests">
+                        All Services
+                    </a>
 
-                @for (category of categories; track category.id) {
-                <a class="list-group-item list-group-item-action" [class.active]="selectedCategoryId() === category.id"
-                    [routerLink]="['/booking/tests', category.id]">
-                    {{ category.name }}
-                </a>
+                    @for (category of categories; track category.id) {
+                    <a class="list-group-item list-group-item-action"
+                        [class.active]="selectedCategoryId() === category.id"
+                        [routerLink]="['/booking/tests', category.id]">
+                        {{ category.name }}
+                    </a>
+                    }
+                </div>
                 }
-            </div>
-            }
+            </nav>
         </aside>
 
-        <!-- RIGHT: Tests -->
-        <section class="col-lg-9 col-md-8">
-            <div class="mb-3">
-                <h2 class="mb-1">Select Services</h2>
-                <p class="text-muted mb-4">
-                    Choose from available diagnostic services.
-                </p>
-            </div>
+        <!-- RIGHT: Test Results -->
+        <section class="col-lg-9 col-md-8" aria-labelledby="tests-heading">
 
+            <!-- Header + Search -->
+            <header class="d-flex align-items-center justify-content-between mb-3">
+                <div>
+                    <h2 id="tests-heading" class="mb-1">Select Services</h2>
+
+                    <p class="text-muted mb-0">
+                        Choose from available diagnostic services.
+                    </p>
+
+                    <small class="text-muted">
+                        {{ filteredTests().length }} test(s)
+                    </small>
+                </div>
+
+                <form role="search" style="max-width: 280px; width: 100%;">
+                    <input type="search" class="form-control" placeholder="Search services…"
+                        aria-label="Search diagnostic services" (input)="searchInput.set($any($event.target).value)" />
+                </form>
+            </header>
+
+            <!-- Results -->
             @if (tests$ | async; as tests) {
+
             @if (tests.length === 0) {
-            <div class="alert alert-light border">
+            <p class="alert alert-light border" role="status">
                 No services available for this category.
-            </div>
+            </p>
             } @else {
+
             <div class="row g-3">
-                @for (test of tests; track test.id) {
+                @for (test of filteredTests(); track test.id; let i = $index) {
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                    <div class="card h-100">
+
+                    @defer (on viewport) {
+                    <article class="card h-100 fade-slide-in" animate.enter style="--animate-delay: {{ i * 40 }}ms">
+
                         <div class="card-body d-flex flex-column">
-                            <h6 class="card-title mb-2">
+                            <h3 class="h6 card-title mb-2">
                                 {{ test.name }}
-                            </h6>
+                            </h3>
 
-                            <div class="text-muted mb-3">
+                            <data class="text-muted mb-3" [value]="test.discounted_price || test.original_price">
                                 ₹{{ test.discounted_price || test.original_price }}
-                            </div>
+                            </data>
 
-                            <div class="mt-auto text-end">
+                            <footer class="mt-auto text-end">
                                 @if (!isSelected(test.id)) {
                                 <button class="btn btn-sm btn-primary" (click)="addTest(test)">
                                     Add
@@ -60,18 +83,33 @@
                                     Remove
                                 </button>
                                 }
+                            </footer>
+                        </div>
+                    </article>
+                    }
+                    @placeholder {
+                    <div class="card h-100 border-0" aria-hidden="true">
+                        <div class="card-body">
+                            <div class="placeholder-glow">
+                                <span class="placeholder col-8"></span>
+                                <span class="placeholder col-5"></span>
+                                <span class="placeholder col-6"></span>
                             </div>
                         </div>
                     </div>
+                    }
+
                 </div>
                 }
             </div>
+
             }
             } @else {
-            <div class="text-center my-5">
+            <div class="text-center my-5" role="status">
                 <div class="spinner-border text-primary"></div>
             </div>
             }
+
         </section>
     </div>
-</div>
+</main>

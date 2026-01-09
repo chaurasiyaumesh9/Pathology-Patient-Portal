@@ -1,0 +1,68 @@
+/* ================================
+   Card enter animation (Angular CSS approach)
+   ================================ */
+
+@keyframes fadeSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+article.fade-slide-in {
+    animation-name: fadeSlideIn;
+    animation-duration: 260ms;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-delay: var(--animate-delay, 0ms);
+}
+
+
+/* ================================
+   Placeholder (skeleton) polish
+   ================================ */
+
+/*
+ Bootstrap already provides:
+ - .placeholder
+ - .placeholder-glow
+ - shimmer animation
+
+ We only add spacing + visual balance
+*/
+
+.placeholder-glow {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.placeholder {
+    height: 0.85rem;
+    border-radius: 0.25rem;
+}
+
+/* Card placeholder height consistency */
+.card.placeholder-card {
+    min-height: 170px;
+}
+
+/* Optional: soften placeholder background */
+.placeholder {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+/* ================================
+   Accessibility / motion safety
+   ================================ */
+
+@media (prefers-reduced-motion: reduce) {
+    .fade-slide-in {
+        animation: none;
+    }
+}
