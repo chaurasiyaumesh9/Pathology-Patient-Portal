@@ -15,10 +15,10 @@ export const BOOKING_ROUTES: Routes = [
             BookingStore
         ],
         children: [
-            { 
-                path: '', 
-                loadComponent: () => import('./components/booking-home/booking-home').then(m => m.BookingHomeComponent),
-            },
+            // { 
+            //     path: '', 
+            //     loadComponent: () => import('./components/booking-home/booking-home').then(m => m.BookingHomeComponent),
+            // },
             { 
                 path: 'tests', 
                 loadComponent: () => import('./components/tests/tests.components').then(m => m.TestsComponent),
@@ -49,7 +49,13 @@ export const BOOKING_ROUTES: Routes = [
             },
             { 
                 path: 'payment', 
+                canActivate: [cartNotEmptyGuard],
                 loadComponent: () => import('./components/payment/payment.component').then(m => m.PaymentComponent),
+            },
+            {
+                path: '',
+                redirectTo: 'tests',
+                pathMatch: 'full'
             }
         ]
     }
