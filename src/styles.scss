@@ -8,5 +8,12 @@ $border-radius-2xl:           0;
 $blue:    #005AA4;
 $font-size-base:              0.95rem; 
 
+@import "bootstrap-icons/font/bootstrap-icons.css";
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+
+i{
+    color: $blue;
+    font-size: 1.2rem;
+}
 
