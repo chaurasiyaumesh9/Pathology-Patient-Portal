@@ -1,18 +1,18 @@
 import { Routes } from '@angular/router';
-import { provideState } from '@ngrx/store';
-import { bookingFeatureKey, bookingReducer } from './store/booking.reducer';
 import { cartNotEmptyGuard } from './guards/cart-not-empty.guard';
 import { TestsService } from './services/tests.service';
 import { testsResolver } from './resolvers/tests.resolver';
 import { testsByCategoryResolver } from './resolvers/tests-by-category.resolver';
 import { testCategoriesResolver } from './resolvers/test-categories.resolver';
+import { BookingStore } from './store/booking.state';
+import { availableSlotsResolver } from './resolvers/available-slots.resolver';
 
 export const BOOKING_ROUTES: Routes = [
     {
         path: '',
         providers: [
             TestsService,
-            provideState(bookingFeatureKey, bookingReducer)
+            BookingStore
         ],
         children: [
             { 
@@ -38,7 +38,10 @@ export const BOOKING_ROUTES: Routes = [
             {
                 path: 'schedule',
                 loadComponent: () => import('./components/schedule/schedule.component').then(m => m.ScheduleComponent),
-                canActivate: [cartNotEmptyGuard]
+                canActivate: [cartNotEmptyGuard],
+                resolve: {
+                    slots: availableSlotsResolver,
+                }
             },
             { 
                 path: 'cart', 

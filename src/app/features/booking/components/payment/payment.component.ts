@@ -1,9 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router, RouterLink } from '@angular/router';
-import { Store } from '@ngrx/store';
-import * as BookingSelectors from '../../store/booking.selectors';
-import * as BookingActions from '../../store/booking.actions';
+import { BookingStore } from '../../store/booking.state';
 
 @Component({
     selector: 'app-payment',
@@ -12,31 +10,19 @@ import * as BookingActions from '../../store/booking.actions';
     styleUrls: ['./payment.component.scss']
 })
 export class PaymentComponent {
-    private store = inject(Store);
+    private bookingStore = inject(BookingStore);
     private router = inject(Router);
 
-    selectedServices = this.store.selectSignal(
-        BookingSelectors.selectSelectedTests
-    );
-
-    appointment = this.store.selectSignal(
-        BookingSelectors.selectAppointment
-    );
-
-    totalAmount = this.store.selectSignal(
-        BookingSelectors.selectTotalAmount
-    );
-
-    paymentStatus = this.store.selectSignal(
-        BookingSelectors.selectPaymentStatus
-    );
+    selectedServices = this.bookingStore.selectedTests;
+    appointment = this.bookingStore.appointment;
+    totalAmount = this.bookingStore.totalAmount;
+    paymentStatus = this.bookingStore.paymentStatus;
 
     payNow(): void {
-        this.store.dispatch(BookingActions.startPayment());
+        this.bookingStore.startPayment();
 
-        // MOCK PAYMENT FLOW
         setTimeout(() => {
-            this.store.dispatch(BookingActions.paymentSuccess());
+            this.bookingStore.paymentSuccess();
             this.router.navigate(['/booking/confirmation']);
         }, 1500);
     }

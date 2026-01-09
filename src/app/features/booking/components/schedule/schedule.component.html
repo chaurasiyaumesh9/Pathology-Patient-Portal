@@ -1,58 +1,75 @@
-<div class="container">
-    <!-- Page Header -->
-    <div class="mb-4">
-        <h2 class="mb-2">Select Sample Collection Slot</h2>
+<main class="container">
+    <!-- Page header -->
+    <header class="mb-4">
+        <h1 class="h2 mb-2">Select Sample Collection Slot</h1>
         <p class="text-muted">
             Choose a preferred date and time for sample collection.
         </p>
-    </div>
+    </header>
 
-    @if (days$ | async; as days) {
+    @if (days().length > 0) {
 
-    <!-- Dates -->
-    <div class="row g-3 mb-4">
-        @for (day of days; track day.date) {
-        <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card h-100">
-                <div class="card-body">
-                    <!-- Date Button -->
-                    <button class="btn w-100 mb-2" [class.btn-primary]="selectedDate() === day.date"
-                        [class.btn-outline-primary]="selectedDate() !== day.date" (click)="selectDate(day.date)">
-                        {{ day.date }}
-                    </button>
+    <!-- Available dates and slots -->
+    <section aria-labelledby="available-slots-heading">
+        <h2 id="available-slots-heading" class="visually-hidden">
+            Available dates and time slots
+        </h2>
 
-                    <!-- Time Slots -->
-                    @if (selectedDate() === day.date) {
-                    <div class="d-grid gap-2">
-                        @for (slot of day.slots; track slot) {
-                        <button class="btn btn-sm" [class.btn-success]="selectedTime() === slot"
-                            [class.btn-outline-secondary]="selectedTime() !== slot" (click)="selectTime(slot)">
-                            {{ slot }}
+        <ul class="row g-3 mb-4 list-unstyled">
+            @for (day of days(); track day.date) {
+            <li class="col-lg-3 col-md-4 col-sm-6">
+                <article class="card h-100">
+                    <div class="card-body">
+                        <!-- Date selection -->
+                        <button type="button" class="btn w-100 mb-2" [class.btn-primary]="selectedDate() === day.date"
+                            [class.btn-outline-primary]="selectedDate() !== day.date" (click)="selectDate(day.date)"
+                            [attr.aria-pressed]="selectedDate() === day.date">
+                            <time [attr.datetime]="day.date">
+                                {{ day.date }}
+                            </time>
                         </button>
+
+                        <!-- Time slots for selected date -->
+                        @if (selectedDate() === day.date) {
+                        <fieldset class="d-grid gap-2">
+                            <legend class="visually-hidden">
+                                Available time slots for {{ day.date }}
+                            </legend>
+
+                            @for (slot of day.slots; track slot) {
+                            <button type="button" class="btn btn-sm" [class.btn-success]="selectedTime() === slot"
+                                [class.btn-outline-secondary]="selectedTime() !== slot" (click)="selectTime(slot)"
+                                [attr.aria-pressed]="selectedTime() === slot">
+                                {{ slot }}
+                            </button>
+                            }
+                        </fieldset>
                         }
                     </div>
-                    }
-                </div>
-            </div>
-        </div>
-        }
-    </div>
+                </article>
+            </li>
+            }
+        </ul>
+    </section>
 
-    <!-- Actions -->
-    <div class="d-flex justify-content-between align-items-center">
+    <!-- Navigation actions -->
+    <nav class="d-flex justify-content-between align-items-center" aria-label="Schedule navigation">
         <a class="btn btn-outline-secondary" routerLink="/booking/cart">
             ← Back to Cart
         </a>
 
-        <button class="btn btn-primary" [disabled]="!selectedDate() || !selectedTime()" (click)="confirmAppointment()"
-            routerLink="/booking/payment">
+        <button type="button" class="btn btn-primary" [disabled]="!selectedDate() || !selectedTime()"
+            (click)="confirmAppointment()" routerLink="/booking/payment">
             Proceed to Payment →
         </button>
-    </div>
+    </nav>
 
     } @else {
-    <div class="text-center my-5">
-        <div class="spinner-border text-primary" role="status"></div>
-    </div>
+
+    <!-- Loading state -->
+    <section class="text-center my-5" aria-live="polite" aria-busy="true">
+        <div class="spinner-border text-primary" role="status" aria-label="Loading available slots"></div>
+    </section>
+
     }
-</div>
+</main>

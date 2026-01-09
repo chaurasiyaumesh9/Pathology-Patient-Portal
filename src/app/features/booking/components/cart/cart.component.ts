@@ -1,9 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
-import { Store } from '@ngrx/store';
-import * as BookingSelectors from '../../store/booking.selectors';
-import * as BookingActions from '../../store/booking.actions';
+import { BookingStore } from '../../store/booking.state';
 
 @Component({
     selector: 'app-cart',
@@ -12,19 +10,13 @@ import * as BookingActions from '../../store/booking.actions';
     styleUrls: ['./cart.component.scss']
 })
 export class CartComponent {
-    private store = inject(Store);
+    private bookingStore = inject(BookingStore);
 
-    selectedTests = this.store.selectSignal(
-        BookingSelectors.selectSelectedTests
-    );
+    selectedTests = this.bookingStore.selectedTests;
 
-    totalAmount = this.store.selectSignal(
-        BookingSelectors.selectTotalAmount
-    );
+    totalAmount = this.bookingStore.totalAmount;
 
     removeTest(testId: number): void {
-        this.store.dispatch(
-            BookingActions.removeTest({ testId })
-        );
+        this.bookingStore.removeTest(testId);
     }
 }

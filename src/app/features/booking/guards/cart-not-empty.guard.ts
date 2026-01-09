@@ -1,19 +1,12 @@
 import { inject } from '@angular/core';
 import { CanActivateFn, Router } from '@angular/router';
-import { Store } from '@ngrx/store';
-import { firstValueFrom } from 'rxjs';
+import { BookingStore } from '../store/booking.state';
 
-import { selectSelectedTests } from '../store/booking.selectors';
-
-export const cartNotEmptyGuard: CanActivateFn = async () => {
-  const store = inject(Store);
+export const cartNotEmptyGuard: CanActivateFn = () => {
+  const bookingStore = inject(BookingStore);
   const router = inject(Router);
 
-  const tests = await firstValueFrom(
-    store.select(selectSelectedTests)
-  );
-
-  if (tests.length === 0) {
+  if (bookingStore.selectedTests().length === 0) {
     router.navigate(['/booking/tests']);
     return false;
   }

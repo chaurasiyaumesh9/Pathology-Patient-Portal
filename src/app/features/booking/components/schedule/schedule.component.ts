@@ -1,10 +1,8 @@
 import { Component, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router';
-import { Store } from '@ngrx/store';
-
-import * as BookingActions from '../../store/booking.actions';
-import { TestsService } from '../../services/tests.service';
+import { ActivatedRoute, RouterLink } from '@angular/router';
+import { BookingStore } from '../../store/booking.state';
+import { SampleCollectionDay } from '../../models/test.model';
 
 @Component({
     selector: 'app-schedule',
@@ -13,10 +11,12 @@ import { TestsService } from '../../services/tests.service';
     styleUrls: ['./schedule.component.scss']
 })
 export class ScheduleComponent {
-    private testsService = inject(TestsService);
-    private store = inject(Store);
+    private route = inject(ActivatedRoute);
+    private bookingStore = inject(BookingStore);
 
-    days$ = this.testsService.getAvailableSlots();
+    days = signal<SampleCollectionDay[]>(
+        this.route.snapshot.data['slots']
+    );
 
     selectedDate = signal<string | null>(null);
     selectedTime = signal<string | null>(null);
@@ -32,14 +32,9 @@ export class ScheduleComponent {
 
     confirmAppointment(): void {
         if (!this.selectedDate() || !this.selectedTime()) return;
-
-        this.store.dispatch(
-            BookingActions.setAppointment({
-                appointment: {
-                    date: this.selectedDate()!,
-                    time: this.selectedTime()!
-                }
-            })
-        );
+        this.bookingStore.setAppointment({
+            date: this.selectedDate()!,
+            time: this.selectedTime()!
+        });
     }
 }

@@ -1,13 +1,10 @@
 import { Component, computed, effect, inject, signal } from '@angular/core';
-import { Store } from '@ngrx/store';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, RouterLink } from '@angular/router';
-import * as BookingActions from '../../store/booking.actions';
-import * as BookingSelectors from '../../store/booking.selectors';
-import { selectSelectedTests } from '../../store/booking.selectors';
 import { Test, TestCategory } from '../../models/test.model';
 import { map } from 'rxjs/operators';
 import { toSignal } from '@angular/core/rxjs-interop';
+import { BookingStore } from '../../store/booking.state';
 
 @Component({
     selector: 'app-tests',
@@ -16,7 +13,7 @@ import { toSignal } from '@angular/core/rxjs-interop';
     styleUrls: ['./tests.components.scss']
 })
 export class TestsComponent {
-    private store = inject(Store);
+    private bookingStore = inject(BookingStore);
     private route = inject(ActivatedRoute);
 
     private resolvedTests = toSignal(
@@ -60,17 +57,14 @@ export class TestsComponent {
     tests$ = this.route.data.pipe(
         map(data => data['tests'])
     );
-    selectedTests = this.store.selectSignal(selectSelectedTests);
-    selectedTestsCount = this.store.selectSignal(
-        BookingSelectors.selectSelectedTests
-    );
+    selectedTests = this.bookingStore.selectedTests;    
 
     addTest(test: Test) {
-        this.store.dispatch(BookingActions.addTest({ test }));
+        this.bookingStore.addTest(test);
     }
 
     removeTest(testId: number) {
-        this.store.dispatch(BookingActions.removeTest({ testId }));
+        this.bookingStore.removeTest(testId);
     }
 
     isSelected(testId: number): boolean {
